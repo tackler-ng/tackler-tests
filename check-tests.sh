@@ -46,7 +46,9 @@ rgx_test_func=' +id_+[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+_[[:
 get_source_files () {
     if [ -e ../build.sbt ]; then
         find "$exe_dir/../api/src/" "$exe_dir/../core/src/" "$exe_dir/../cli/src/" -name '*.scala'
-    else
+    elif [ -e ../Cargo.toml ]; then
+        find "$exe_dir/../tackler-rs/src/" "$exe_dir/../tackler-api/src/" "$exe_dir/../tackler-core/src/" "$exe_dir/../tackler-cli/src/" -name '*.rs'
+    else 
         echo "can't find source"
         exit 1
     fi
@@ -64,6 +66,7 @@ get_t3db_test_ids () {
     get_t3db_content | egrep -A1 ' (error|test):' | egrep '[[:space:]]+id:' | sed -E 's/[[:space:]]+id: +//'
 }
 
+#sed -E 's/^# +test: +//'
 get_test_ids () {
     (
         # exec-based tests
@@ -75,7 +78,7 @@ get_test_ids () {
             xargs egrep -h '(((\*)|(//))('"$rgx_test"'))|(fn'"$rgx_test_func"')'
     )|\
         sed -E 's/.* +test: +//' |\
-        sed -E 's/^# +test: +//'
+        sed -E 's@.*fn +id_(.*)__.*@\1@' | tr '_' '-'
 }
 
 t3db_feature_id_lst=$(mktemp /tmp/t3db_feature_lst.XXXXXX)
@@ -130,17 +133,17 @@ diff -u $t3db_id_lst $test_id_lst | grep -v -- '---' | grep '^-' |\
     while read raw_uuid; do
         uuid=$(echo $raw_uuid | sed 's/^-//')
         echo "In T3DB, no test: $(echo $uuid | sed 's/^-//')"
-        grep $uuid $T3DBs
+        # grep -E ' +id: +'"$uuid" $T3DBs
     done
 
 diff -u $t3db_id_lst $test_id_lst | grep -v '+++' | grep '^\+' |\
     while read raw_uuid; do
         uuid=$(echo $raw_uuid | sed 's/^+//')
         echo "In test, no T3DB: $uuid"
-        (
-            find $exe_dir/ -name '*.exec'
-            get_source_files
-        ) | xargs grep $uuid
+        # (
+        #     find $exe_dir/ -name '*.exec'
+        #     get_source_files
+        # ) | xargs grep $uuid
     done
 
 
