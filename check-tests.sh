@@ -17,7 +17,7 @@ sh_pykwalify=pykwalify
 
 exe_dir=$(dirname $(realpath $0))
 
-db_dir="$exe_dir"
+db_dir="$exe_dir/../../tackler-t3db"
 
 # good enough for know
 t3db_00="$db_dir/tests.yml"
@@ -40,6 +40,17 @@ t3db_14="$db_dir/tests-1014.yml"
 T3DBs="$t3db_00 $t3db_01 $t3db_02 $t3db_04 $t3db_05 $t3db_06 $t3db_07 $t3db_08 $t3db_09 $t3db_10 $t3db_11 $t3db_12 $t3db_13 $t3db_14"
 
 rgx_test=' +test: +[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+ *$'
+rgx_test_func=' +id_+[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+__'
+
+
+get_source_files () {
+    if [ -e ../build.sbt ]; then
+        find "$exe_dir/../api/src/" "$exe_dir/../core/src/" "$exe_dir/../cli/src/" -name '*.scala'
+    else
+        echo "can't find source"
+        exit 1
+    fi
+}
 
 get_t3db_content () {
     egrep -hv '^[[:space:]]*#' $T3DBs
@@ -60,10 +71,10 @@ get_test_ids () {
             xargs egrep -h '^#'"$rgx_test"
 
         # unit and integration tests
-        find "$exe_dir/../api/src/" "$exe_dir/../core/src/" "$exe_dir/../cli/src/" -name '*.scala' |\
-            xargs egrep -h '\*'"$rgx_test"
+        get_source_files |\
+            xargs egrep -h '(((\*)|(//))('"$rgx_test"'))|(fn'"$rgx_test_func"')'
     )|\
-        sed -E 's/ +\* +test: +//' |\
+        sed -E 's/.* +test: +//' |\
         sed -E 's/^# +test: +//'
 }
 
@@ -76,22 +87,26 @@ trap "rm -f $t3db_id_lst" 0
 test_id_lst=$(mktemp /tmp/test_id_lst.XXXXXX)
 trap "rm -f $test_id_lst" 0
 
+test_id_dups_lst=$(mktemp /tmp/test_id_dups_lst.XXXXXX)
+trap "rm -f $test_id_dups_lst" 0
+
 get_t3db_feature_ids | sort > $t3db_feature_id_lst
 get_t3db_test_ids | sort > $t3db_id_lst
-get_test_ids | sort > $test_id_lst
+get_test_ids | sort > $test_id_dups_lst
+cat $test_id_dups_lst | uniq > $test_id_lst
 
 echo "Check tests for missing ids (exec-files):"
 find "$exe_dir" -name '*.exec' | xargs egrep '#'"$rgx_test" -L
 
 # this is already checked by diff, but print dups again here
 echo "Check tests for duplicate ids (scalatest + exec-files):"
-get_test_ids | sort | uniq -d
+cat $test_id_dups_lst | uniq -d
 
 
 echo "Check T3DB YAML validity:"
 for test_db in $T3DBs
 do
-    $sh_pykwalify -v -s  "$exe_dir/tests-schema.yml" -d  "$test_db"
+    $sh_pykwalify -v -s  "$db_dir/tests-schema.yml" -d  "$test_db"
 done
 
 echo "Check T3DB for duplicate test ids:"
@@ -124,14 +139,14 @@ diff -u $t3db_id_lst $test_id_lst | grep -v '+++' | grep '^\+' |\
         echo "In test, no T3DB: $uuid"
         (
             find $exe_dir/ -name '*.exec'
-            find $exe_dir/../api/src/ $exe_dir/../core/src/ $exe_dir/../cli/src/ -type f
+            get_source_files
         ) | xargs grep $uuid
     done
 
 
 
 echo "Check JSON validity:"
-find "$exe_dir" -name '*.json' -exec "$exe_dir/json_lint.py" {} \;
+find "$exe_dir" -name '*.json' -exec "$db_dir/json_lint.py" {} \;
 
 echo 
 echo "Silence is gold"
