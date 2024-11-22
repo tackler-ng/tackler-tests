@@ -1,8 +1,11 @@
+Report Time Zone
+        TZ name : UTC
+
 
 BALANCE GROUPS
 --------------
-2017-05 Z
----------
+2017-05
+-------
                  0.00           3.00 ACME  Assets
                  3.00           3.00 ACME  Assets:Stocks
                  0.00        -359.75 EUR   Assets

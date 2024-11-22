@@ -1,5 +1,5 @@
 Txns size: 1
-Filter:
+Filter
   Txn Description: "ab.*"
 
 
@@ -12,7 +12,7 @@ BALANCE
 =====================
                  0.00
 
-Filter:
+Filter
   Txn Description: "ab.*"
 
 
@@ -27,7 +27,7 @@ BALANCE GROUPS
 =====================
                  0.00
 
-Filter:
+Filter
   Txn Description: "ab.*"
 
 

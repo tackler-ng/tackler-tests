@@ -1,5 +1,5 @@
-Active time zone:
-  TZ name: +02:00
+Report Time Zone
+        TZ name : +02:00
 
 
 REGISTER

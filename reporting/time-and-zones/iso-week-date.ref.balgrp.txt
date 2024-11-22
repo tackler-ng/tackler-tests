@@ -1,5 +1,5 @@
-Active time zone:
-  TZ name: Europe/London
+Report Time Zone
+        TZ name : Europe/London
 
 
 BALANCE GROUPS

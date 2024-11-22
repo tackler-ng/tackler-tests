@@ -2,21 +2,21 @@
   "metadata" : {
     "items" : [
       {
-        "TxnSetChecksum" : {
-          "size" : 10,
-          "hash" : {
-            "algorithm" : "SHA-256",
-            "value" : "9b29071e1bf228cfbd31ca2b8e7263212e4b86e51cfee1e8002c9b795ab03f76"
-          }
-        }
-      },
-      {
         "GitInputReference" : {
           "commit" : "4aa4e9797501c1aefc92f32dff30ab462dae5545",
           "ref" : "txns-1E1",
           "dir" : "txns",
           "suffix" : ".txn",
           "message" : "txns-1E1: 2016/12"
+        }
+      },
+      {
+        "TxnSetChecksum" : {
+          "size" : 10,
+          "hash" : {
+            "algorithm" : "SHA-256",
+            "value" : "9b29071e1bf228cfbd31ca2b8e7263212e4b86e51cfee1e8002c9b795ab03f76"
+          }
         }
       },
       {

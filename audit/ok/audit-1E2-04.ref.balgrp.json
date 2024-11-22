@@ -2,15 +2,6 @@
   "metadata" : {
     "items" : [
       {
-        "TxnSetChecksum" : {
-          "size" : 3,
-          "hash" : {
-            "algorithm" : "SHA-256",
-            "value" : "0b9f89dbdc0da621de136dc7856df22caecdf6041e44aff0d58493c6fd3166b6"
-          }
-        }
-      },
-      {
         "GitInputReference" : {
           "commit" : "15fc7e053906ed3714037b0af0a81bb486fb4884",
           "ref" : "txns-1E2",
@@ -20,11 +11,20 @@
         }
       },
       {
+        "TxnSetChecksum" : {
+          "size" : 3,
+          "hash" : {
+            "algorithm" : "SHA-256",
+            "value" : "0b9f89dbdc0da621de136dc7856df22caecdf6041e44aff0d58493c6fd3166b6"
+          }
+        }
+      },
+      {
         "TxnFilterDescription" : {
           "txnFilterDef" : {
             "txnFilter" : {
               "TxnFilterTxnDescription" : {
-                "regex" : "1E2 txn-(1|17|100)"
+                "regex" : "^1E2 txn-(1|17|100)$"
               }
             }
           }
@@ -37,13 +37,18 @@
             "value" : "64263feac7b00952e9ec3b6c1fd11316faa58ff673c6bd085fac9f6f8d8389f6"
           }
         }
+      },
+      {
+        "TimeZoneInfo" : {
+          "zoneId" : "UTC"
+        }
       }
     ]
   },
   "title" : "BALANCE GROUPS",
   "groups" : [
     {
-      "title" : "2016-01 Z",
+      "title" : "2016-01",
       "balances" : [
         {
           "accountSum" : "0.00",
@@ -88,7 +93,7 @@
       ]
     },
     {
-      "title" : "2016-03 Z",
+      "title" : "2016-03",
       "balances" : [
         {
           "accountSum" : "0.00",
@@ -133,7 +138,7 @@
       ]
     },
     {
-      "title" : "2016-12 Z",
+      "title" : "2016-12",
       "balances" : [
         {
           "accountSum" : "0.00",

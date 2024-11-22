@@ -1,5 +1,5 @@
-Active time zone:
-  TZ name: Z
+Report Time Zone
+        TZ name : Z
 
 
 REGISTER

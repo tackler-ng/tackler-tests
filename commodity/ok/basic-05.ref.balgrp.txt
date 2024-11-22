@@ -1,8 +1,11 @@
+Report Time Zone
+        TZ name : UTC
+
 
 BALANCE GROUPS
 --------------
-2017-05 Z
----------
+2017-05
+-------
                -22.00       -22.00 EUR  a
                  0.00        22.00 EUR  e
                  1.00         1.00 EUR  e:b

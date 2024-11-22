@@ -1,19 +1,19 @@
-Txn set checksum:
-  SHA-256: 9b29071e1bf228cfbd31ca2b8e7263212e4b86e51cfee1e8002c9b795ab03f76
-  Set size: 10
+Git Storage
+         commit : 4aa4e9797501c1aefc92f32dff30ab462dae5545
+      reference : txns-1E1
+      directory : txns
+         suffix : .txn
+        message : txns-1E1: 2016/12
 
-Git storage:
-  commit:  4aa4e9797501c1aefc92f32dff30ab462dae5545
-  ref:     txns-1E1
-  dir:     txns
-  suffix:  .txn
-  message: txns-1E1: 2016/12
+Txn Set Checksum
+        SHA-256 : 9b29071e1bf228cfbd31ca2b8e7263212e4b86e51cfee1e8002c9b795ab03f76
+       Set size : 10
 
-Account selector checksum:
-  SHA-256: d1227257ad0ae6872b23d8ba48934f6bf54766afd8e7daf6e35a919bbb01867b
+Account Selector Checksum
+        SHA-256 : d1227257ad0ae6872b23d8ba48934f6bf54766afd8e7daf6e35a919bbb01867b
 
-Active time zone:
-  TZ name: Europe/Helsinki
+Report Time Zone
+        TZ name : Europe/Helsinki
 
 
 BALANCE GROUPS

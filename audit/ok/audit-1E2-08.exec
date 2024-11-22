@@ -1,0 +1,5 @@
+# format: exec
+# test: 85d16b5a-cde9-40d3-9a37-3b7ba7ee7049 
+# desc: metadata: subset by complex filter
+# desc: equity export: complex filter
+exec:--cfg;tests/audit/audit.conf;--reporting.console;off;--input.git.ref;txns-1E2;--output;out.audit-1E2-08;--reporting.accounts;^e:.*;--api-filter-def;base64:ewogICAgInR4bkZpbHRlciIgOiB7CiAgICAgICAgIlR4bkZpbHRlckFORCIgOiB7CiAgICAgICAgICAgICJ0eG5GaWx0ZXJzIiA6IFsKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgIlR4bkZpbHRlclBvc3RpbmdBY2NvdW50IiA6IHsKICAgICAgICAgICAgInJlZ2V4IiA6ICJeZTouKiIKICAgICAgICB9CiAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgIlR4bkZpbHRlclR4blRTQmVnaW4iIDogewogICAgICAgICAgICAgICAgICJiZWdpbiIgOiAiMjAxNi0wMS0wMVQwMDowMDowMFoiCiAgICAgICAgICAgICB9CiAgICAgICAgIH0sCiAgICAgICAgICAgICB7CiAgICAgICAgIlR4bkZpbHRlclR4blRTRW5kIiA6IHsKICAgICAgICAgICAgImVuZCIgOiAiMjAxNi0wMi0wMVQwMDowMDowMFoiCiAgICAgICAgfQogICAgfQogICAgICAgICAgICBdCiAgICAgICAgfQogICAgfQp9Cg==;

@@ -1,25 +1,25 @@
 2016-12-31T23:58:20Z 'Equity: last txn (uuid): 28827cf2-2cb7-3524-b437-2faf26febda8
-   ; Txn set checksum:
-   ;   SHA-384: cbbef473e8ffb266c5674ce25fabd6ab73bcb61c74a347c2dedcc74061d5ed624f04ff3075e76cfdf34ef0abe99c61ee
-   ;   Set size: 3
+   ; Git Storage
+   ;          commit : 15fc7e053906ed3714037b0af0a81bb486fb4884
+   ;       reference : txns-1E2
+   ;       directory : txns
+   ;          suffix : .txn
+   ;         message : txns-1E2: 2016/12
    ; 
-   ; Git storage:
-   ;   commit:  15fc7e053906ed3714037b0af0a81bb486fb4884
-   ;   ref:     txns-1E2
-   ;   dir:     txns
-   ;   suffix:  .txn
-   ;   message: txns-1E2: 2016/12
+   ; Txn Set Checksum
+   ;        SHA3-512 : 310b7eef85e84f26b8fa389d23c5f8adf334a0f5f4d3d9b98b68d8a51a0fe55809ba514e9b3a17d6c69ad1a30c4ff2cce7e9f63751a5ca1d445b361d511ddb9c
+   ;        Set size : 3
    ; 
-   ; Filter:
-   ;   Txn Description: "1E2 txn-(1|17|100)"
+   ; Filter
+   ;   Txn Description: "^1E2 txn-(1|17|100)$"
    ; 
-   ; Account selector checksum:
-   ;   SHA-384: 457467dc93df0e4209ea67ca5a878c2f8ad78de19b67bab8bae402dbaf2c625d090a9d8375f5e2d794d557a59f7ec4e3
+   ; Account Selector Checksum
+   ;        SHA3-512 : 3646ad992b393998c6496f4085864f717fb433fac1d3625bac300a9455141fec765eb9d0e49bb03f2aa60c61e23c2495a70472476608b664d58770acc0c1c9e9
    ; 
    ; WARNING:
    ; WARNING: The sum of equity transaction is zero without equity account.
    ; WARNING: Therefore there is no equity posting row, and this is probably not right.
-   ; WARNING: Is account selector correct for this Equity Export?
+   ; WARNING: Is the account selector correct for this Equity export?
    ; WARNING:
    a:ay2016:am01  -4.0000001
    a:ay2016:am03  -3.0000001

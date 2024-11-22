@@ -1,9 +1,9 @@
-Git storage:
-  commit:  3a1622d0c81cd1520f42ee357315d1db8c0e0771
-  ref:     tag-test-01
-  dir:     git-txns
-  suffix:  .txn
-  message: test: commit-id-01, step 2
+Git Storage
+         commit : 3a1622d0c81cd1520f42ee357315d1db8c0e0771
+      reference : tag-test-01
+      directory : git-txns
+         suffix : .txn
+        message : test: commit-id-01, step 2
 
 
 BALANCE GROUPS

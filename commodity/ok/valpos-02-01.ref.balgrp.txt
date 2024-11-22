@@ -1,8 +1,11 @@
+Report Time Zone
+        TZ name : UTC
+
 
 BALANCE GROUPS
 --------------
-2019-04 Z
----------
+2019-04
+-------
                351.00         351.00 $     e
                  0.00           3.00 ACME  Assets
                  3.00           3.00 ACME  Assets:Stocks

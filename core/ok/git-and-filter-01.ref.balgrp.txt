@@ -1,11 +1,11 @@
-Git storage:
-  commit:  3ebf14112c0ba2b4263a4b7388c589b10db27b1e
-  ref:     FIXED by commit
-  dir:     git-txns
-  suffix:  .txn
-  message: test: commit-id-01, step 3
+Git Storage
+         commit : 3ebf14112c0ba2b4263a4b7388c589b10db27b1e
+      reference : FIXED by commit
+      directory : git-txns
+         suffix : .txn
+        message : test: commit-id-01, step 3
 
-Filter:
+Filter
   Txn Description: "shard01"
 
 

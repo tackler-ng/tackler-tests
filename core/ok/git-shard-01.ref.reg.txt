@@ -1,9 +1,9 @@
-Git storage:
-  commit:  422ca7f3cbc1f3597fd2312d7d6c7793115e1e50
-  ref:     shard-01
-  dir:     git-txns
-  suffix:  .txn
-  message: test: shard-01
+Git Storage
+         commit : 422ca7f3cbc1f3597fd2312d7d6c7793115e1e50
+      reference : shard-01
+      directory : git-txns
+         suffix : .txn
+        message : test: shard-01
 
 
 REGISTER
