@@ -4,4 +4,4 @@
 # Example reports
 #
 # Used gas (saldo) by users
-exec:--cfg;tests/commodity/gb.conf;--reporting.accounts;^User:.*:.*;--reporting.reports;balance;--output;out.gas-blender-saldo;
+exec:--cfg;tests/commodity/gb-stock.conf;--reporting.accounts;^User:.*:.*;--reporting.reports;balance;--output;out.gas-blender-saldo;

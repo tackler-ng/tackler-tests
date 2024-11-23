@@ -1,5 +1,5 @@
 # format: exec
-# test:  93651962-6b61-4fd6-941a-339abd87ec73
+# test: 93651962-6b61-4fd6-941a-339abd87ec73
 # desc: each report has different account selector
 # desc: combined metadata with report-timestamp
 # desc: warning about zero equity posting

@@ -55,15 +55,15 @@ get_source_files () {
 }
 
 get_t3db_content () {
-    egrep -hv '^[[:space:]]*#' $T3DBs
+    grep -Ehv '^[[:space:]]*#' $T3DBs
 }
 
 get_t3db_feature_ids () {
-    get_t3db_content | egrep -A1 ' feature:' | egrep '[[:space:]]+id:' | sed -E 's/[[:space:]]+id: +//'
+    get_t3db_content | grep -EA1 ' feature:' |  grep -E '[[:space:]]+id:' | sed -E 's/[[:space:]]+id: +//'
 }
 
 get_t3db_test_ids () {
-    get_t3db_content | egrep -A1 ' (error|test):' | egrep '[[:space:]]+id:' | sed -E 's/[[:space:]]+id: +//'
+    get_t3db_content | grep -EA1 ' (error|test):' | grep -E '[[:space:]]+id:' | sed -E 's/[[:space:]]+id: +//'
 }
 
 #sed -E 's/^# +test: +//'
@@ -71,11 +71,11 @@ get_test_ids () {
     (
         # exec-based tests
         find "$exe_dir" -name '*.exec' |\
-            xargs egrep -h '^#'"$rgx_test"
+            xargs grep -Eh '^#'"$rgx_test"
 
         # unit and integration tests
         get_source_files |\
-            xargs egrep -h '(((\*)|(//))('"$rgx_test"'))|(fn'"$rgx_test_func"')'
+            xargs grep -Eh '(((\*)|(//))('"$rgx_test"'))|(fn'"$rgx_test_func"')'
     )|\
         sed -E 's/.* +test: +//' |\
         sed -E 's@.*fn +id_(.*)__.*@\1@' | tr '_' '-'
@@ -99,7 +99,7 @@ get_test_ids | sort > $test_id_dups_lst
 cat $test_id_dups_lst | uniq > $test_id_lst
 
 echo "Check tests for missing ids (exec-files):"
-find "$exe_dir" -name '*.exec' | xargs egrep '#'"$rgx_test" -L
+find "$exe_dir" -name '*.exec' | xargs grep -E '#'"$rgx_test" -L
 
 # this is already checked by diff, but print dups again here
 echo "Check tests for duplicate ids (scalatest + exec-files):"
@@ -118,13 +118,13 @@ cat $t3db_id_lst | uniq -d
 echo "Check T3DB for non-exist refids:"
 get_t3db_content | grep ' refid:' | sed 's/.*refid: //' | while read refid;
 do
-    egrep -q -L "$refid" $t3db_id_lst || echo $refid
+    grep -Eq -L "$refid" $t3db_id_lst || echo $refid
 done
 
 echo "Check T3DB for non-exist parents:"
 get_t3db_content | grep ' parent:' | sed 's/.*parent: //' | while read parent;
 do
-    egrep -q -L "$parent" $t3db_feature_id_lst || echo $parent
+    grep -Eq -L "$parent" $t3db_feature_id_lst || echo $parent
 done
 
 echo "Cross check T3DB and tests ids:"
@@ -136,7 +136,7 @@ diff -u $t3db_id_lst $test_id_lst | grep -v -- '---' | grep '^-' |\
         # grep -E ' +id: +'"$uuid" $T3DBs
     done
 
-diff -u $t3db_id_lst $test_id_lst | grep -v '+++' | grep '^\+' |\
+diff -u $t3db_id_lst $test_id_lst | grep -v '+++' | grep '^+' |\
     while read raw_uuid; do
         uuid=$(echo $raw_uuid | sed 's/^+//')
         echo "In test, no T3DB: $uuid"

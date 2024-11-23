@@ -4,4 +4,4 @@
 # Example reports
 #
 # Tank pressures
-exec:--cfg;tests/commodity/gb.conf;--reporting.accounts;^Gas:.*:Tank.*;--reporting.reports;balance;--output;out.gas-blender-tanks;
+exec:--cfg;tests/commodity/gb-stock.conf;--reporting.accounts;^Gas:.*:Tank.*;--reporting.reports;balance;--output;out.gas-blender-tanks;
