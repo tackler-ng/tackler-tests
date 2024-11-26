@@ -42,14 +42,22 @@ T3DBs="$t3db_00 $t3db_01 $t3db_02 $t3db_04 $t3db_05 $t3db_06 $t3db_07 $t3db_08 $
 rgx_test=' +test: +[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+ *$'
 rgx_test_func=' +id_+[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+__'
 
+if [ -e ../build.sbt ]; then
+    tackler_version="SC"
+elif [ -e ../Cargo.toml ]; then
+    tackler_version="RS"
+else
+    echo "Can't detect tackler type"
+    exit 1
+fi
 
 get_source_files () {
-    if [ -e ../build.sbt ]; then
+    if [ "$tackler_version" == "SC" ]; then
         find "$exe_dir/../api/src/" "$exe_dir/../core/src/" "$exe_dir/../cli/src/" -name '*.scala'
-    elif [ -e ../Cargo.toml ]; then
+    elif [ "$tackler_version" == "RS" ]; then
         find "$exe_dir/../tackler-rs/src/" "$exe_dir/../tackler-api/src/" "$exe_dir/../tackler-core/src/" "$exe_dir/../tackler-cli/src/" -name '*.rs'
-    else 
-        echo "can't find source"
+    else
+        echo "Unknown tackler type"
         exit 1
     fi
 }
@@ -66,12 +74,29 @@ get_t3db_test_ids () {
     get_t3db_content | grep -EA1 ' (error|test):' | grep -E '[[:space:]]+id:' | sed -E 's/[[:space:]]+id: +//'
 }
 
+get_rust_test_ids () {
+    # shell-based tests
+    find "$exe_dir/../tests/sh" -name '*.sh' |\
+        xargs grep -Eh '^#'"$rgx_test"
+}
+
+get_scala_test_ids () {
+    # exec-based tests
+    find "$exe_dir" -name '*.exec' |\
+        xargs grep -Eh '^#'"$rgx_test"
+}
+
 #sed -E 's/^# +test: +//'
 get_test_ids () {
     (
-        # exec-based tests
-        find "$exe_dir" -name '*.exec' |\
-            xargs grep -Eh '^#'"$rgx_test"
+        if [ "$tackler_version" == "SC" ]; then
+            get_scala_test_ids
+        elif [ "$tackler_version" == "RS" ]; then
+            get_rust_test_ids
+        else
+            echo "Unknown tackler type"
+            exit 1
+        fi
 
         # unit and integration tests
         get_source_files |\
@@ -146,7 +171,8 @@ diff -u $t3db_id_lst $test_id_lst | grep -v '+++' | grep '^+' |\
         # ) | xargs grep $uuid
     done
 
-
+echo "T3DB test count: $(cat $t3db_id_lst | wc -l)"
+echo "Impl Test count: $(cat $test_id_lst | wc -l)"
 
 echo "Check JSON validity:"
 find "$exe_dir" -name '*.json' -exec "$db_dir/json_lint.py" {} \;
