@@ -9,13 +9,18 @@
           "suffix" : ".txn",
           "message" : "test: commit-id-01, step 2"
         }
+      },
+      {
+        "TimeZoneInfo" : {
+          "zoneId" : "UTC"
+        }
       }
     ]
   },
   "title" : "BALANCE GROUPS",
   "groups" : [
     {
-      "title" : "2017-02 Z",
+      "title" : "2017-02",
       "balances" : [
         {
           "accountSum" : "110.00",

@@ -9,13 +9,18 @@
           "suffix" : ".txn",
           "message" : "test: shard-01"
         }
+      },
+      {
+        "TimeZoneInfo" : {
+          "zoneId" : "UTC"
+        }
       }
     ]
   },
   "title" : "BALANCE GROUPS",
   "groups" : [
     {
-      "title" : "2017-01 Z",
+      "title" : "2017-01",
       "balances" : [
         {
           "accountSum" : "1.00",
@@ -35,7 +40,7 @@
       ]
     },
     {
-      "title" : "2017-02 Z",
+      "title" : "2017-02",
       "balances" : [
         {
           "accountSum" : "110.00",

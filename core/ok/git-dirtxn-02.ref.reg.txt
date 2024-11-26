@@ -5,10 +5,13 @@ Git Storage
          suffix : .txn
         message : test: dirtxn-02
 
+Report Time Zone
+        TZ name : UTC
+
 
 REGISTER
 --------
-2018-01-01 Z 'under 2018
+2018-01-01 'under 2018
             # uuid: 38af4629-8ce6-43cb-99ac-53ca808b8eec
             a                                             10.00              10.00
             e                                            -10.00             -10.00
