@@ -1,8 +1,17 @@
 {
+  "metadata" : {
+    "items" : [
+      {
+        "TimeZoneInfo" : {
+          "zoneId" : "UTC"
+        }
+      }
+    ]
+  },
   "title" : "BALANCE GROUPS",
   "groups" : [
     {
-      "title" : "2009-01 Z",
+      "title" : "2009-01",
       "balances" : [
         {
           "accountSum" : "-40180202.11",
@@ -22,7 +31,7 @@
       ]
     },
     {
-      "title" : "2009-02 Z",
+      "title" : "2009-02",
       "balances" : [
         {
           "accountSum" : "-20090214.00",
@@ -42,7 +51,7 @@
       ]
     },
     {
-      "title" : "2009-12 Z",
+      "title" : "2009-12",
       "balances" : [
         {
           "accountSum" : "-20091231.00",
@@ -62,7 +71,7 @@
       ]
     },
     {
-      "title" : "2010-01 Z",
+      "title" : "2010-01",
       "balances" : [
         {
           "accountSum" : "-60300308.00",
