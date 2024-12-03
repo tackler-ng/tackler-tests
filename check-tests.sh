@@ -21,6 +21,7 @@ db_dir="$exe_dir/../../tackler-t3db"
 
 # good enough for know
 t3db_00="$db_dir/tests.yml"
+t3db_ng_00="$db_dir/tests-ng.yml"
 t3db_01="$db_dir/tests-1001.yml"
 t3db_02="$db_dir/tests-1002.yml"
 # t3db_03="$db_dir/tests-1003.yml" not implemented yet
@@ -37,7 +38,7 @@ t3db_13="$db_dir/tests-1013.yml"
 t3db_14="$db_dir/tests-1014.yml"
 
 
-T3DBs="$t3db_00 $t3db_01 $t3db_02 $t3db_04 $t3db_05 $t3db_06 $t3db_07 $t3db_08 $t3db_09 $t3db_10 $t3db_11 $t3db_12 $t3db_13 $t3db_14"
+T3DBs="$t3db_00 $t3db_ng_00 $t3db_01 $t3db_02 $t3db_04 $t3db_05 $t3db_06 $t3db_07 $t3db_08 $t3db_09 $t3db_10 $t3db_11 $t3db_12 $t3db_13 $t3db_14"
 
 rgx_test=' +test: +[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+ *$'
 rgx_test_func=' +id_+[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+__'
@@ -127,7 +128,7 @@ echo "Check tests for missing ids (exec-files):"
 find "$exe_dir" -name '*.exec' | xargs grep -E '#'"$rgx_test" -L
 
 # this is already checked by diff, but print dups again here
-echo "Check tests for duplicate ids (scalatest + exec-files):"
+echo "Check tests for duplicate ids (unit and exec tests):"
 cat $test_id_dups_lst | uniq -d
 
 
