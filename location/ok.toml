@@ -31,4 +31,5 @@ register      = { title = "REGISTER" }
 
 ### Export Configuration
 [export]
+targets = [ "identity" ]
 equity = { accounts = [ ], equity-account = "Equity:Balance" }
