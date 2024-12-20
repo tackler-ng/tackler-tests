@@ -1,8 +1,17 @@
 {
+  "metadata" : {
+    "items" : [
+      {
+        "TimeZoneInfo" : {
+          "zoneId" : "UTC"
+        }
+      }
+    ]
+  },
   "title" : "GROUP-BY ZERO",
   "groups" : [
     {
-      "title" : "2019-01 Z",
+      "title" : "2019-01",
       "balances" : [
         {
           "accountSum" : "0",
@@ -17,7 +26,7 @@
       ]
     },
     {
-      "title" : "2019-03 Z",
+      "title" : "2019-03",
       "balances" : [
         {
           "accountSum" : "0",
@@ -37,7 +46,7 @@
       ]
     },
     {
-      "title" : "2019-05 Z",
+      "title" : "2019-05",
       "balances" : [
         {
           "accountSum" : "0",
@@ -62,7 +71,7 @@
       ]
     },
     {
-      "title" : "2019-07 Z",
+      "title" : "2019-07",
       "balances" : [
         {
           "accountSum" : "0",
@@ -92,7 +101,7 @@
       ]
     },
     {
-      "title" : "2019-09 Z",
+      "title" : "2019-09",
       "balances" : [
         {
           "accountSum" : "0",

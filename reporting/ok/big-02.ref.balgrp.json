@@ -1,8 +1,17 @@
 {
+  "metadata" : {
+    "items" : [
+      {
+        "TimeZoneInfo" : {
+          "zoneId" : "UTC"
+        }
+      }
+    ]
+  },
   "title" : "MONTH SUMMARY",
   "groups" : [
     {
-      "title" : "2019-01 Z",
+      "title" : "2019-01",
       "balances" : [
         {
           "accountSum" : "0",
@@ -32,7 +41,7 @@
       ]
     },
     {
-      "title" : "2019-02 Z",
+      "title" : "2019-02",
       "balances" : [
         {
           "accountSum" : "0",
@@ -72,7 +81,7 @@
       ]
     },
     {
-      "title" : "2019-03 Z",
+      "title" : "2019-03",
       "balances" : [
         {
           "accountSum" : "0",
@@ -122,7 +131,7 @@
       ]
     },
     {
-      "title" : "2019-04 Z",
+      "title" : "2019-04",
       "balances" : [
         {
           "accountSum" : "0",
@@ -182,7 +191,7 @@
       ]
     },
     {
-      "title" : "2019-05 Z",
+      "title" : "2019-05",
       "balances" : [
         {
           "accountSum" : "0",
@@ -252,7 +261,7 @@
       ]
     },
     {
-      "title" : "2019-06 Z",
+      "title" : "2019-06",
       "balances" : [
         {
           "accountSum" : "0",
@@ -332,7 +341,7 @@
       ]
     },
     {
-      "title" : "2019-07 Z",
+      "title" : "2019-07",
       "balances" : [
         {
           "accountSum" : "0",
@@ -422,7 +431,7 @@
       ]
     },
     {
-      "title" : "2019-08 Z",
+      "title" : "2019-08",
       "balances" : [
         {
           "accountSum" : "0",
@@ -522,7 +531,7 @@
       ]
     },
     {
-      "title" : "2019-09 Z",
+      "title" : "2019-09",
       "balances" : [
         {
           "accountSum" : "0",
