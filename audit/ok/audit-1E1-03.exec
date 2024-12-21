@@ -3,4 +3,4 @@
 # desc: regex match test
 # desc: Account Selector Checksum
 # desc: Sorting order of selectors
-exec:--cfg;tests/audit/audit.conf;--output;out.audit-1E1-03;--reporting.accounts;e;a;--reporting.reports;balance;
+exec:--cfg;tests/audit/audit.conf;--output;out.audit-1E1-03;--reporting.accounts;e;a;--reporting.reports;balance;balance-group;register;

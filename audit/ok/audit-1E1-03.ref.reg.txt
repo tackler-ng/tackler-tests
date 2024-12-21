@@ -1,0 +1,20 @@
+Git Storage
+         commit : 15fc7e053906ed3714037b0af0a81bb486fb4884
+      reference : txns-1E2
+      directory : txns
+         suffix : .txn
+        message : txns-1E2: 2016/12
+
+Txn Set Checksum
+        SHA-256 : 462ced2b6bc3a06fc73cd841da62bd782bc59028ec3102e0216577356d02e971
+       Set size : 100
+
+Account Selector Checksum
+        SHA-256 : 88a40beeddd8c558b85c52cd860682a2fc4643e02b0d6a353911e805c2a2526b
+
+Report Time Zone
+        TZ name : UTC
+
+
+REGISTER
+--------
