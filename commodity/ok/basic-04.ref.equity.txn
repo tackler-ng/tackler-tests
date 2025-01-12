@@ -1,4 +1,4 @@
-2017-05-06T00:00:00Z 'Equity
+2017-05-06T00:00:00+00:00 'Equity
    ; WARNING:
    ; WARNING: The sum of equity transaction is zero without equity account.
    ; WARNING: Therefore there is no equity posting row, and this is probably not right.
@@ -7,7 +7,7 @@
    a  -300
    e  300
 
-2017-05-06T00:00:00Z 'Equity for EUR
+2017-05-06T00:00:00+00:00 'Equity for EUR
    ; WARNING:
    ; WARNING: The sum of equity transaction is zero without equity account.
    ; WARNING: Therefore there is no equity posting row, and this is probably not right.
@@ -17,7 +17,7 @@
    e  10 EUR
    e:b:c  1 EUR
 
-2017-05-06T00:00:00Z 'Equity for USD
+2017-05-06T00:00:00+00:00 'Equity for USD
    ; WARNING:
    ; WARNING: The sum of equity transaction is zero without equity account.
    ; WARNING: Therefore there is no equity posting row, and this is probably not right.

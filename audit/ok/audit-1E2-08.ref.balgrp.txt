@@ -12,8 +12,8 @@ Txn Set Checksum
 Filter
   AND
     Posting Account: "^e:.*"
-    Txn TS: begin 2016-01-01T00:00:00Z
-    Txn TS: end   2016-02-01T00:00:00Z
+    Txn TS: begin 2016-01-01T00:00:00+00:00
+    Txn TS: end   2016-02-01T00:00:00+00:00
 
 Account Selector Checksum
         SHA-256 : 23b3e1d50b27f44e53c0bc66b132028eea2f939fc9ad0d9225f661e41f869b23

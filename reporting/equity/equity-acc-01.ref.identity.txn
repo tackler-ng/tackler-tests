@@ -12,7 +12,7 @@
    a:b:c   300
    e:e0101  -300
 
-2017-01-02T00:00:00Z 'check that report filtering doesn't affect accumulator
+2017-01-02T00:00:00+00:00 'check that report filtering doesn't affect accumulator
    a:by:not   0.01
    not:e:e0101  -0.01
 
