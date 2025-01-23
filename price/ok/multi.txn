@@ -1,11 +1,11 @@
 2024-01-01
-   e 1 aaa
+   e:inc 1 aaa
    a
 
 2024-02-01
-   e 1 bbb
+   e:inc 1 bbb
    a
 
 2024-03-01
-   e 1 ccc
+   e:inc 1 ccc
    a
