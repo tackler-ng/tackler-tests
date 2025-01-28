@@ -1,0 +1,7 @@
+2024-03-24T00:00:00+00:00 'Equity for aaa
+   ; Filter
+   ;   Txn TS: end   2024-03-31T00:00:00+00:00
+   ; 
+   e:conv  11 aaa
+   Equity:Balance  -11 aaa
+

@@ -1,6 +1,6 @@
 ### vim: tabstop=4 shiftwidth=4 softtabstop=4 smarttab expandtab autoindent
 ###
-### PRICE / OK: COMMODITIES
+### PRICE: COMMODITIES
 ###
 
 permit-empty-commodity = true

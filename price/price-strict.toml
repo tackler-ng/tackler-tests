@@ -1,5 +1,5 @@
 ###
-### PRICE / OK
+### PRICE: STRICT = TRUE
 ###
 [kernel]
 strict = true
@@ -13,8 +13,8 @@ db-path = "ok/price.db"
 lookup-type = "txn-time"
 
 [transaction]
-accounts    = { path = "ok-accounts.toml" }
-commodities = { path = "ok-commodities.toml" }
+accounts    = { path = "price-accounts.toml" }
+commodities = { path = "price-commodities.toml" }
 tags        = { path = "none" }
 
 
@@ -23,6 +23,7 @@ tags        = { path = "none" }
 report-timezone = "UTC"
 scale = { min = 2, max = 12 }
 targets = [ "balance", "balance-group", "register" ]
+commodity = "TCKLR"
 accounts = [ ]
 
 balance       = { title = "BALANCE" }
