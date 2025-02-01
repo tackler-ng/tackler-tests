@@ -1,0 +1,8 @@
+
+BALANCE
+-------
+            21.000101          21.000101 TCKLR  Assets:Stocks
+                 1.00               1.00 aaa    Assets:Stocks
+===========================
+            21.000101 TCKLR
+                 1.00 aaa
