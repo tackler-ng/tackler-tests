@@ -1,6 +1,11 @@
 Report Time Zone
         TZ name : UTC
 
+Commodity Prices
+           Time : At txn time
+      Commodity : aaa
+          Value : - TCKLR
+
 
 REGISTER
 --------
