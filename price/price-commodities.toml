@@ -6,6 +6,7 @@
 permit-empty-commodity = true
 
 commodities = [
+    "€",
     "$",
     "aaa",
     "bbb",
