@@ -1,2 +1,2 @@
 
-echo "# test:uuid: $(uuidgen)" >> "$1"
+echo "# test: $(uuidgen)"
