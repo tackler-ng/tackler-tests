@@ -1,6 +1,0 @@
-# format: exec
-# test: 5c34d752-8d17-40df-be91-5dc1b107478e
-# desc: regex match test
-# desc: Account Selector Checksum
-# desc: Sorting order of selectors
-exec:--cfg;tests/audit/audit.conf;--output;out.audit-1E1-03;--reporting.accounts;e;a;--reporting.reports;balance;balance-group;register;

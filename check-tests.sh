@@ -41,7 +41,7 @@ t3db_15="$db_dir/tests-1015.yml"
 
 T3DBs="$t3db_00 $t3db_ng_00 $t3db_01 $t3db_02 $t3db_04 $t3db_05 $t3db_06 $t3db_07 $t3db_08 $t3db_09 $t3db_10 $t3db_11 $t3db_12 $t3db_13 $t3db_14 $t3db_15"
 
-rgx_test=' +test: +[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+ *$'
+rgx_test=' +((test:)|(test-ref:)) +[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+-[[:xdigit:]]+ *$'
 rgx_test_func=' +id_+[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+_[[:xdigit:]]+__'
 
 if [ -e ../build.sbt ]; then
@@ -104,7 +104,7 @@ get_test_ids () {
         get_source_files |\
             xargs grep -Eh '(((\*)|(//))('"$rgx_test"'))|(fn'"$rgx_test_func"')'
     )|\
-        sed -E 's/.* +test: +//' |\
+        sed -E 's/.* +((test:)|(test-ref:)) +//' |\
         sed -E 's@.*fn +id_(.*)__.*@\1@' | tr '_' '-'
 }
 
