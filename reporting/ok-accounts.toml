@@ -1,6 +1,6 @@
 # vim: tabstop=3 shiftwidth=3 softtabstop=3 smarttab expandtab autoindent
 accounts = [
-"Eq:Acc",
+"Equity:Balance",
 "a",
 "a:b",
 "a:b",

@@ -8,4 +8,5 @@ accounts = [
     "e:last",
     "Assets:Cash",
     "Assets:Stocks",
+    "Equity:Balance",
 ]

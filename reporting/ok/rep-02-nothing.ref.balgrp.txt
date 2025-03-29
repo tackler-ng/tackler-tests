@@ -1,3 +1,6 @@
+Report Time Zone
+        TZ name : UTC
 
-BALANCE GROUPS
---------------
+
+BALANCE GROUP (TEST)
+--------------------
