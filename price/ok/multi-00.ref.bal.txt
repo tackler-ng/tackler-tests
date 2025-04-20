@@ -1,4 +1,3 @@
-
 BALANCE
 -------
                  1.00        1.00 aaa  Assets:Stocks

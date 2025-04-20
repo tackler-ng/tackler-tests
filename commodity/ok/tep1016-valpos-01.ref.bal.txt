@@ -1,4 +1,3 @@
-
 BALANCE
 -------
                  3.00        ACME  Assets:Stocks

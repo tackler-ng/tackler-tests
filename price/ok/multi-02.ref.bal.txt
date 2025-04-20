@@ -14,6 +14,7 @@ Commodity Prices
       Commodity : ccc
           Value : 300.000001 TCKLR
 
+
 BALANCE
 -------
            900.010101          900.010101 TCKLR  Assets:Stocks

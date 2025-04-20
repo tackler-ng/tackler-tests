@@ -1,4 +1,3 @@
-
 BALANCE
 -------
                272.00           272.00 bar·He  Gas:He:Tank·102

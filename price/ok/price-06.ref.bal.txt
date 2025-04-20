@@ -6,6 +6,7 @@ Commodity Prices
       Commodity : aaa
           Value : 300000.001 TCKLR
 
+
 BALANCE
 -------
           3600000.012          3600000.012 TCKLR  e:conv
