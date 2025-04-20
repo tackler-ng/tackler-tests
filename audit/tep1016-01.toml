@@ -20,6 +20,7 @@ report-timezone = "UTC"
 scale = { min = 2, max = 7 }
 accounts = [ ]
 targets = [ "balance", "balance-group", "register" ]
+formats = [ "txt", "json" ]
 
 balance       = { title = "BALANCE", type = "flat" }
 balance-group = { title = "BALANCE GROUPS", type = "tree", group-by = "month" }
