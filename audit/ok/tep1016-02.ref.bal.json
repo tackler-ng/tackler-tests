@@ -24,7 +24,7 @@
           "txnFilterDef": {
             "txnFilter": {
               "TxnFilterTxnDescription": {
-                "regex": "^1E2 txn-(1|17|100)$"
+                "regex": "1E2 txn-(1|17|100)$"
               }
             }
           }
@@ -33,8 +33,8 @@
       {
         "AccountSelectorChecksum": {
           "hash": {
-            "algorithm": "None",
-            "value": "select all"
+            "algorithm": "SHA-256",
+            "value": "64263feac7b00952e9ec3b6c1fd11316faa58ff673c6bd085fac9f6f8d8389f6"
           }
         }
       }

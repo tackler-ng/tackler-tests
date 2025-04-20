@@ -24,7 +24,7 @@
           "txnFilterDef": {
             "txnFilter": {
               "TxnFilterTxnDescription": {
-                "regex": "^1E2 txn-(1|17|100)$"
+                "regex": "1E2 txn-(1|17|100)$"
               }
             }
           }
@@ -34,17 +34,42 @@
         "AccountSelectorChecksum": {
           "hash": {
             "algorithm": "SHA-256",
-            "value": "e468cfe14511f611835d95d141f3869edd000ce17e14b5b2e3468e5d75baaf5f"
+            "value": "64263feac7b00952e9ec3b6c1fd11316faa58ff673c6bd085fac9f6f8d8389f6"
           }
-        }
-      },
-      {
-        "TimeZoneInfo": {
-          "zoneId": "UTC"
         }
       }
     ]
   },
-  "title": "BALANCE GROUPS",
-  "groups": []
+  "title": "BALANCE",
+  "balances": [
+    {
+      "accountSum": "-4.0000001",
+      "account": "a:ay2016:am01"
+    },
+    {
+      "accountSum": "-3.0000001",
+      "account": "a:ay2016:am03"
+    },
+    {
+      "accountSum": "-31.0000001",
+      "account": "a:ay2016:am12"
+    },
+    {
+      "accountSum": "4.0000001",
+      "account": "e:ey2016:em01:ed04"
+    },
+    {
+      "accountSum": "3.0000001",
+      "account": "e:ey2016:em03:ed03"
+    },
+    {
+      "accountSum": "31.0000001",
+      "account": "e:ey2016:em12:ed31"
+    }
+  ],
+  "deltas": [
+    {
+      "delta": "0.0000000"
+    }
+  ]
 }

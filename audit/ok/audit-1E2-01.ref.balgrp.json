@@ -1,83 +1,83 @@
 {
-  "metadata" : {
-    "items" : [
+  "metadata": {
+    "items": [
       {
-        "GitInputReference" : {
-          "commit" : "15fc7e053906ed3714037b0af0a81bb486fb4884",
-          "ref" : "txns-1E2",
-          "dir" : "txns/2016/01/11",
-          "suffix" : ".txn",
-          "message" : "txns-1E2: 2016/12"
+        "GitInputReference": {
+          "commit": "15fc7e053906ed3714037b0af0a81bb486fb4884",
+          "ref": "txns-1E2",
+          "dir": "txns/2016/01/11",
+          "suffix": "txn",
+          "message": "txns-1E2: 2016/12"
         }
       },
       {
-        "TxnSetChecksum" : {
-          "size" : 1,
-          "hash" : {
-            "algorithm" : "SHA-256",
-            "value" : "79519f4ba982a7accfe0ed64545e60d3fa4adb883125d04ff0a8bb65343ac982"
+        "TxnSetChecksum": {
+          "size": 1,
+          "hash": {
+            "algorithm": "SHA-256",
+            "value": "79519f4ba982a7accfe0ed64545e60d3fa4adb883125d04ff0a8bb65343ac982"
           }
         }
       },
       {
-        "AccountSelectorChecksum" : {
-          "hash" : {
-            "algorithm" : "None",
-            "value" : "select all"
+        "AccountSelectorChecksum": {
+          "hash": {
+            "algorithm": "None",
+            "value": "select all"
           }
         }
       },
       {
-        "TimeZoneInfo" : {
-          "zoneId" : "UTC"
+        "TimeZoneInfo": {
+          "zoneId": "UTC"
         }
       }
     ]
   },
-  "title" : "BALANCE GROUPS",
-  "groups" : [
+  "title": "BALANCE GROUPS",
+  "groups": [
     {
-      "title" : "2016-01",
-      "balances" : [
+      "title": "2016-01",
+      "balances": [
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "-11.0000001",
-          "account" : "a"
+          "accountSum": "0.00",
+          "accountTreeSum": "-11.0000001",
+          "account": "a"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "-11.0000001",
-          "account" : "a:ay2016"
+          "accountSum": "0.00",
+          "accountTreeSum": "-11.0000001",
+          "account": "a:ay2016"
         },
         {
-          "accountSum" : "-11.0000001",
-          "accountTreeSum" : "-11.0000001",
-          "account" : "a:ay2016:am01"
+          "accountSum": "-11.0000001",
+          "accountTreeSum": "-11.0000001",
+          "account": "a:ay2016:am01"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "11.0000001",
-          "account" : "e"
+          "accountSum": "0.00",
+          "accountTreeSum": "11.0000001",
+          "account": "e"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "11.0000001",
-          "account" : "e:ey2016"
+          "accountSum": "0.00",
+          "accountTreeSum": "11.0000001",
+          "account": "e:ey2016"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "11.0000001",
-          "account" : "e:ey2016:em01"
+          "accountSum": "0.00",
+          "accountTreeSum": "11.0000001",
+          "account": "e:ey2016:em01"
         },
         {
-          "accountSum" : "11.0000001",
-          "accountTreeSum" : "11.0000001",
-          "account" : "e:ey2016:em01:ed11"
+          "accountSum": "11.0000001",
+          "accountTreeSum": "11.0000001",
+          "account": "e:ey2016:em01:ed11"
         }
       ],
-      "deltas" : [
+      "deltas": [
         {
-          "delta" : "0.0000000"
+          "delta": "0.0000000"
         }
       ]
     }
