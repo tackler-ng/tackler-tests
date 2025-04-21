@@ -21,6 +21,7 @@ tags        = { path = "none" }
 
 [report]
 report-timezone = "UTC"
+formats = [ "txt", "json" ]
 scale = { min = 0, max = 25 }
 accounts = [ 
         "^e0:e1:e2:e3:e4:e5:e6:e7:e8$",

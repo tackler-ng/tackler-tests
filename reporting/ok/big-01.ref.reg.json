@@ -1,9 +1,19 @@
 {
+  "metadata": {
+    "items": [
+      {
+        "TimeZoneInfo": {
+          "zoneId": "UTC"
+        }
+      }
+    ]
+  },
   "title": "REGISTER (TEST)",
   "transactions": [
     {
+      "displayTime": "2017-03-01",
       "txn": {
-        "timestamp": "2017-03-01T00:00:00Z"
+        "timestamp": "2017-03-01T00:00:00+00:00[UTC]"
       },
       "postings": [
         {

@@ -1,4 +1,13 @@
 {
-  "title": "REGISTER",
+  "metadata": {
+    "items": [
+      {
+        "TimeZoneInfo": {
+          "zoneId": "UTC"
+        }
+      }
+    ]
+  },
+  "title": "REGISTER (TEST)",
   "transactions": []
 }

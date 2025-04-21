@@ -22,6 +22,7 @@ tags        = { path = "none" }
 [report]
 report-timezone = "UTC"
 scale = { min = 2, max = 7 }
+formats = [ "txt", "json" ]
 # Verify that accounts are not trimmed (e.g. nonsensical " *" start of regex is ok)
 # test: c6da0aef-125f-4d33-9780-ffaa9e724499
 accounts = [ " *a:.*", "^e:.*" ]

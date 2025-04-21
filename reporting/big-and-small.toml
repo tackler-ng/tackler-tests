@@ -22,6 +22,7 @@ tags        = { path = "none" }
 [report]
 report-timezone = "UTC"
 scale = { min = 0, max = 25 }
+formats = [ "txt", "json" ]
 accounts = [ "e0(:.+)?", "a0(:.+)?" ]
 targets = [ "balance", "balance-group", "register"]
 

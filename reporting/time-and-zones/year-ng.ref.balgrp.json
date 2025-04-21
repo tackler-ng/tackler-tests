@@ -3,7 +3,7 @@
     "items": [
       {
         "TimeZoneInfo": {
-          "zoneId": "Z"
+          "zoneId": "UTC"
         }
       }
     ]
