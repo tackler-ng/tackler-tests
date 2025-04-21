@@ -1,22 +1,22 @@
 {
-  "metadata" : {
-    "items" : [
+  "metadata": {
+    "items": [
       {
-        "TxnFilterDescription" : {
-          "txnFilterDef" : {
-            "txnFilter" : {
-              "TxnFilterAND" : {
-                "txnFilters" : [
+        "TxnFilterDescription": {
+          "txnFilterDef": {
+            "txnFilter": {
+              "TxnFilterAND": {
+                "txnFilters": [
                   {
-                    "TxnFilterTxnTags" : {
-                      "regex" : "reindeer:.*"
+                    "TxnFilterTxnTags": {
+                      "regex": "reindeer:.*"
                     }
                   },
                   {
-                    "TxnFilterNOT" : {
-                      "txnFilter" : {
-                        "TxnFilterTxnTags" : {
-                          "regex" : "reindeer:Normal·Nose"
+                    "TxnFilterNOT": {
+                      "txnFilter": {
+                        "TxnFilterTxnTags": {
+                          "regex": "reindeer:Normal·Nose"
                         }
                       }
                     }
@@ -29,48 +29,48 @@
       }
     ]
   },
-  "title" : "REGISTER",
-  "transactions" : [
+  "title": "REGISTER",
+  "transactions": [
     {
-      "txn" : {
-        "timestamp" : "2020-12-25T00:00:00Z",
-        "uuid" : "300fbfc5-05fd-4286-afd1-84804e746d6c",
-        "tags" : [
+      "txn": {
+        "timestamp": "2020-12-25T00:00:00Z",
+        "uuid": "300fbfc5-05fd-4286-afd1-84804e746d6c",
+        "tags": [
           "reindeer:Rudolph",
           "reindeer:Petteri·Punakuono"
         ]
       },
-      "postings" : [
+      "postings": [
         {
-          "account" : "a",
-          "amount" : "-1.00",
-          "runningTotal" : "-1.00"
+          "account": "a",
+          "amount": "-1.00",
+          "runningTotal": "-1.00"
         },
         {
-          "account" : "e",
-          "amount" : "1.00",
-          "runningTotal" : "1.00"
+          "account": "e",
+          "amount": "1.00",
+          "runningTotal": "1.00"
         }
       ]
     },
     {
-      "txn" : {
-        "timestamp" : "2020-12-25T00:00:00Z",
-        "uuid" : "b15f2a2c-ce4b-465b-a19a-eb5d02602132",
-        "tags" : [
+      "txn": {
+        "timestamp": "2020-12-25T00:00:00Z",
+        "uuid": "b15f2a2c-ce4b-465b-a19a-eb5d02602132",
+        "tags": [
           "reindeer:Petteri·Punakuono"
         ]
       },
-      "postings" : [
+      "postings": [
         {
-          "account" : "a",
-          "amount" : "-1.00",
-          "runningTotal" : "-2.00"
+          "account": "a",
+          "amount": "-1.00",
+          "runningTotal": "-2.00"
         },
         {
-          "account" : "e",
-          "amount" : "1.00",
-          "runningTotal" : "2.00"
+          "account": "e",
+          "amount": "1.00",
+          "runningTotal": "2.00"
         }
       ]
     }

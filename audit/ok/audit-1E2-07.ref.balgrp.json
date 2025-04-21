@@ -1,184 +1,184 @@
 {
-  "metadata" : {
-    "items" : [
+  "metadata": {
+    "items": [
       {
-        "GitInputReference" : {
-          "commit" : "15fc7e053906ed3714037b0af0a81bb486fb4884",
-          "ref" : "txns-1E2",
-          "dir" : "txns",
-          "suffix" : ".txn",
-          "message" : "txns-1E2: 2016/12"
+        "GitInputReference": {
+          "commit": "15fc7e053906ed3714037b0af0a81bb486fb4884",
+          "ref": "txns-1E2",
+          "dir": "txns",
+          "suffix": "txn",
+          "message": "txns-1E2: 2016/12"
         }
       },
       {
-        "TxnSetChecksum" : {
-          "size" : 3,
-          "hash" : {
-            "algorithm" : "SHA3-512",
-            "value" : "310b7eef85e84f26b8fa389d23c5f8adf334a0f5f4d3d9b98b68d8a51a0fe55809ba514e9b3a17d6c69ad1a30c4ff2cce7e9f63751a5ca1d445b361d511ddb9c"
+        "TxnSetChecksum": {
+          "size": 3,
+          "hash": {
+            "algorithm": "SHA3-512",
+            "value": "310b7eef85e84f26b8fa389d23c5f8adf334a0f5f4d3d9b98b68d8a51a0fe55809ba514e9b3a17d6c69ad1a30c4ff2cce7e9f63751a5ca1d445b361d511ddb9c"
           }
         }
       },
       {
-        "TxnFilterDescription" : {
-          "txnFilterDef" : {
-            "txnFilter" : {
-              "TxnFilterTxnDescription" : {
-                "regex" : "^1E2 txn-(1|17|100)$"
+        "TxnFilterDescription": {
+          "txnFilterDef": {
+            "txnFilter": {
+              "TxnFilterTxnDescription": {
+                "regex": "^1E2 txn-(1|17|100)$"
               }
             }
           }
         }
       },
       {
-        "AccountSelectorChecksum" : {
-          "hash" : {
-            "algorithm" : "SHA3-512",
-            "value" : "3646ad992b393998c6496f4085864f717fb433fac1d3625bac300a9455141fec765eb9d0e49bb03f2aa60c61e23c2495a70472476608b664d58770acc0c1c9e9"
+        "AccountSelectorChecksum": {
+          "hash": {
+            "algorithm": "SHA3-512",
+            "value": "3646ad992b393998c6496f4085864f717fb433fac1d3625bac300a9455141fec765eb9d0e49bb03f2aa60c61e23c2495a70472476608b664d58770acc0c1c9e9"
           }
         }
       },
       {
-        "TimeZoneInfo" : {
-          "zoneId" : "UTC"
+        "TimeZoneInfo": {
+          "zoneId": "UTC"
         }
       }
     ]
   },
-  "title" : "BALANCE GROUPS",
-  "groups" : [
+  "title": "BALANCE GROUPS",
+  "groups": [
     {
-      "title" : "2016-01",
-      "balances" : [
+      "title": "2016-01",
+      "balances": [
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "-4.0000001",
-          "account" : "a"
+          "accountSum": "0.00",
+          "accountTreeSum": "-4.0000001",
+          "account": "a"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "-4.0000001",
-          "account" : "a:ay2016"
+          "accountSum": "0.00",
+          "accountTreeSum": "-4.0000001",
+          "account": "a:ay2016"
         },
         {
-          "accountSum" : "-4.0000001",
-          "accountTreeSum" : "-4.0000001",
-          "account" : "a:ay2016:am01"
+          "accountSum": "-4.0000001",
+          "accountTreeSum": "-4.0000001",
+          "account": "a:ay2016:am01"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "4.0000001",
-          "account" : "e"
+          "accountSum": "0.00",
+          "accountTreeSum": "4.0000001",
+          "account": "e"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "4.0000001",
-          "account" : "e:ey2016"
+          "accountSum": "0.00",
+          "accountTreeSum": "4.0000001",
+          "account": "e:ey2016"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "4.0000001",
-          "account" : "e:ey2016:em01"
+          "accountSum": "0.00",
+          "accountTreeSum": "4.0000001",
+          "account": "e:ey2016:em01"
         },
         {
-          "accountSum" : "4.0000001",
-          "accountTreeSum" : "4.0000001",
-          "account" : "e:ey2016:em01:ed04"
+          "accountSum": "4.0000001",
+          "accountTreeSum": "4.0000001",
+          "account": "e:ey2016:em01:ed04"
         }
       ],
-      "deltas" : [
+      "deltas": [
         {
-          "delta" : "0.0000000"
+          "delta": "0.0000000"
         }
       ]
     },
     {
-      "title" : "2016-03",
-      "balances" : [
+      "title": "2016-03",
+      "balances": [
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "-3.0000001",
-          "account" : "a"
+          "accountSum": "0.00",
+          "accountTreeSum": "-3.0000001",
+          "account": "a"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "-3.0000001",
-          "account" : "a:ay2016"
+          "accountSum": "0.00",
+          "accountTreeSum": "-3.0000001",
+          "account": "a:ay2016"
         },
         {
-          "accountSum" : "-3.0000001",
-          "accountTreeSum" : "-3.0000001",
-          "account" : "a:ay2016:am03"
+          "accountSum": "-3.0000001",
+          "accountTreeSum": "-3.0000001",
+          "account": "a:ay2016:am03"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "3.0000001",
-          "account" : "e"
+          "accountSum": "0.00",
+          "accountTreeSum": "3.0000001",
+          "account": "e"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "3.0000001",
-          "account" : "e:ey2016"
+          "accountSum": "0.00",
+          "accountTreeSum": "3.0000001",
+          "account": "e:ey2016"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "3.0000001",
-          "account" : "e:ey2016:em03"
+          "accountSum": "0.00",
+          "accountTreeSum": "3.0000001",
+          "account": "e:ey2016:em03"
         },
         {
-          "accountSum" : "3.0000001",
-          "accountTreeSum" : "3.0000001",
-          "account" : "e:ey2016:em03:ed03"
+          "accountSum": "3.0000001",
+          "accountTreeSum": "3.0000001",
+          "account": "e:ey2016:em03:ed03"
         }
       ],
-      "deltas" : [
+      "deltas": [
         {
-          "delta" : "0.0000000"
+          "delta": "0.0000000"
         }
       ]
     },
     {
-      "title" : "2016-12",
-      "balances" : [
+      "title": "2016-12",
+      "balances": [
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "-31.0000001",
-          "account" : "a"
+          "accountSum": "0.00",
+          "accountTreeSum": "-31.0000001",
+          "account": "a"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "-31.0000001",
-          "account" : "a:ay2016"
+          "accountSum": "0.00",
+          "accountTreeSum": "-31.0000001",
+          "account": "a:ay2016"
         },
         {
-          "accountSum" : "-31.0000001",
-          "accountTreeSum" : "-31.0000001",
-          "account" : "a:ay2016:am12"
+          "accountSum": "-31.0000001",
+          "accountTreeSum": "-31.0000001",
+          "account": "a:ay2016:am12"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "31.0000001",
-          "account" : "e"
+          "accountSum": "0.00",
+          "accountTreeSum": "31.0000001",
+          "account": "e"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "31.0000001",
-          "account" : "e:ey2016"
+          "accountSum": "0.00",
+          "accountTreeSum": "31.0000001",
+          "account": "e:ey2016"
         },
         {
-          "accountSum" : "0.00",
-          "accountTreeSum" : "31.0000001",
-          "account" : "e:ey2016:em12"
+          "accountSum": "0.00",
+          "accountTreeSum": "31.0000001",
+          "account": "e:ey2016:em12"
         },
         {
-          "accountSum" : "31.0000001",
-          "accountTreeSum" : "31.0000001",
-          "account" : "e:ey2016:em12:ed31"
+          "accountSum": "31.0000001",
+          "accountTreeSum": "31.0000001",
+          "account": "e:ey2016:em12:ed31"
         }
       ],
-      "deltas" : [
+      "deltas": [
         {
-          "delta" : "0.0000000"
+          "delta": "0.0000000"
         }
       ]
     }

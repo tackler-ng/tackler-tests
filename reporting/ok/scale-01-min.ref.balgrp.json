@@ -1,23 +1,23 @@
 {
-  "title" : "BALANCE GROUPS",
-  "groups" : [
+  "title": "BALANCE GROUPS",
+  "groups": [
     {
-      "title" : "2019-01 Z",
-      "balances" : [
+      "title": "2019-01 Z",
+      "balances": [
         {
-          "accountSum" : "-1.0000",
-          "accountTreeSum" : "-1.0000",
-          "account" : "a"
+          "accountSum": "-1.0000",
+          "accountTreeSum": "-1.0000",
+          "account": "a"
         },
         {
-          "accountSum" : "1.0000",
-          "accountTreeSum" : "1.0000",
-          "account" : "e"
+          "accountSum": "1.0000",
+          "accountTreeSum": "1.0000",
+          "account": "e"
         }
       ],
-      "deltas" : [
+      "deltas": [
         {
-          "delta" : "0.0000"
+          "delta": "0.0000"
         }
       ]
     }
