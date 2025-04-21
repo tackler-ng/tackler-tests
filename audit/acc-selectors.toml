@@ -21,6 +21,7 @@ tags        = { path = "none" }
 [report]
 report-timezone = "Europe/Helsinki"
 scale = { min = 2, max = 7 }
+formats = [ "txt", "json" ]
 accounts = [ "global selector, should not be used" ]
 targets = [ "balance", "balance-group", "register" ]
 
