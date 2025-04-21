@@ -1,9 +1,19 @@
 {
+  "metadata": {
+    "items": [
+      {
+        "TimeZoneInfo": {
+          "zoneId": "UTC"
+        }
+      }
+    ]
+  },
   "title": "REGISTER",
   "transactions": [
     {
+      "displayTime": "2020-12-24",
       "txn": {
-        "timestamp": "2020-12-24T00:00:00Z",
+        "timestamp": "2020-12-24T00:00:00+00:00[UTC]",
         "tags": [
           "saunatonttu"
         ]
@@ -22,8 +32,9 @@
       ]
     },
     {
+      "displayTime": "2020-12-24",
       "txn": {
-        "timestamp": "2020-12-24T00:00:00Z",
+        "timestamp": "2020-12-24T00:00:00+00:00[UTC]",
         "uuid": "209aba54-f8a8-4eb5-924c-7b975d1f6341",
         "tags": [
           "reindeer:Rudolph",

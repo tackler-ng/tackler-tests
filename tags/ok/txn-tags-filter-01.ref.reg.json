@@ -15,14 +15,20 @@
             }
           }
         }
+      },
+      {
+        "TimeZoneInfo": {
+          "zoneId": "UTC"
+        }
       }
     ]
   },
   "title": "REGISTER",
   "transactions": [
     {
+      "displayTime": "2020-12-25",
       "txn": {
-        "timestamp": "2020-12-25T00:00:00Z",
+        "timestamp": "2020-12-25T00:00:00+00:00[UTC]",
         "uuid": "300fbfc5-05fd-4286-afd1-84804e746d6c",
         "tags": [
           "reindeer:Rudolph",
@@ -43,8 +49,9 @@
       ]
     },
     {
+      "displayTime": "2020-12-25",
       "txn": {
-        "timestamp": "2020-12-25T00:00:00Z",
+        "timestamp": "2020-12-25T00:00:00+00:00[UTC]",
         "uuid": "42cf2fd4-5d02-4df4-9b1a-5020f1d20da3"
       },
       "postings": [
@@ -61,8 +68,9 @@
       ]
     },
     {
+      "displayTime": "2020-12-25",
       "txn": {
-        "timestamp": "2020-12-25T00:00:00Z",
+        "timestamp": "2020-12-25T00:00:00+00:00[UTC]",
         "uuid": "b15f2a2c-ce4b-465b-a19a-eb5d02602132",
         "tags": [
           "reindeer:Petteri·Punakuono"

@@ -21,6 +21,7 @@ tags        = { path = "ok-tags.toml" }
 [report]
 report-timezone = "UTC"
 scale = { min = 2, max = 4 }
+formats = [ "txt", "json" ]
 targets = [ "register" ]
 accounts = [ ]
 
