@@ -1,9 +1,19 @@
 {
+  "metadata": {
+    "items": [
+      {
+        "TimeZoneInfo": {
+          "zoneId": "UTC"
+        }
+      }
+    ]
+  },
   "title": "REGISTER",
   "transactions": [
     {
+      "displayTime": "2017-01-01",
       "txn": {
-        "timestamp": "2017-01-01T00:00:00Z",
+        "timestamp": "2017-01-01T00:00:00+00:00[UTC]",
         "description": "äöåÄÖÅéèÿ:äöåÄ:ÖÅéèÿ 空 風 風:空"
       },
       "postings": [
@@ -20,8 +30,9 @@
       ]
     },
     {
+      "displayTime": "2017-01-01",
       "txn": {
-        "timestamp": "2017-01-01T00:00:00Z",
+        "timestamp": "2017-01-01T00:00:00+00:00[UTC]",
         "code": "!\"#¤%&/=? @£€\\",
         "description": "abc"
       },
@@ -39,8 +50,9 @@
       ]
     },
     {
+      "displayTime": "2017-01-01",
       "txn": {
-        "timestamp": "2017-01-01T00:00:00Z",
+        "timestamp": "2017-01-01T00:00:00+00:00[UTC]",
         "code": "abc",
         "description": "!\"#¤%&/()=? @£€{[]}\\",
         "uuid": "8898bd3d-1d12-4ccd-b8d9-f52c61093250"
@@ -59,8 +71,9 @@
       ]
     },
     {
+      "displayTime": "2017-01-01",
       "txn": {
-        "timestamp": "2017-01-01T00:00:00Z",
+        "timestamp": "2017-01-01T00:00:00+00:00[UTC]",
         "code": "abc",
         "description": "123",
         "comments": [
@@ -81,8 +94,9 @@
       ]
     },
     {
+      "displayTime": "2017-01-01",
       "txn": {
-        "timestamp": "2017-01-01T00:00:00Z",
+        "timestamp": "2017-01-01T00:00:00+00:00[UTC]",
         "code": "abc",
         "description": "edf"
       },
@@ -100,8 +114,9 @@
       ]
     },
     {
+      "displayTime": "2017-01-01",
       "txn": {
-        "timestamp": "2017-01-01T00:00:00Z",
+        "timestamp": "2017-01-01T00:00:00+00:00[UTC]",
         "code": "abc",
         "description": "edf xzy"
       },

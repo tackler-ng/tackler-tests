@@ -1,9 +1,19 @@
 {
+  "metadata": {
+    "items": [
+      {
+        "TimeZoneInfo": {
+          "zoneId": "UTC"
+        }
+      }
+    ]
+  },
   "title": "REGISTER",
   "transactions": [
     {
+      "displayTime": "2017-01-10",
       "txn": {
-        "timestamp": "2017-01-10T00:00:00Z",
+        "timestamp": "2017-01-10T00:00:00+00:00[UTC]",
         "description": "aa test by sorting that code is detected",
         "uuid": "40a2e6b1-eabd-40e3-be2f-0b7d6924e943"
       },
@@ -21,8 +31,9 @@
       ]
     },
     {
+      "displayTime": "2017-01-10",
       "txn": {
-        "timestamp": "2017-01-10T00:00:00Z",
+        "timestamp": "2017-01-10T00:00:00+00:00[UTC]",
         "code": "!\"#¤%&/=?",
         "description": "ok case",
         "uuid": "b0bdf37a-d94d-4a68-8692-246ef9359ded"
@@ -41,8 +52,9 @@
       ]
     },
     {
+      "displayTime": "2017-01-10",
       "txn": {
-        "timestamp": "2017-01-10T00:00:00Z",
+        "timestamp": "2017-01-10T00:00:00+00:00[UTC]",
         "code": "123",
         "description": "ok case",
         "uuid": "14773cc9-38d1-4bfa-8a70-abd38c9f89b6"
@@ -61,8 +73,9 @@
       ]
     },
     {
+      "displayTime": "2017-01-10",
       "txn": {
-        "timestamp": "2017-01-10T00:00:00Z",
+        "timestamp": "2017-01-10T00:00:00+00:00[UTC]",
         "code": "hello world",
         "description": "ok case",
         "uuid": "40a2e6b1-eabd-40e3-be2f-0b7d6924e943"
