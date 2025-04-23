@@ -1,9 +1,19 @@
 {
+  "metadata": {
+    "items": [
+      {
+        "TimeZoneInfo": {
+          "zoneId": "UTC"
+        }
+      }
+    ]
+  },
   "title": "REGISTER",
   "transactions": [
     {
+      "displayTime": "2017-05-01",
       "txn": {
-        "timestamp": "2017-05-01T00:00:00Z",
+        "timestamp": "2017-05-01T00:00:00+00:00[UTC]",
         "description": "basic commodity (EUR)"
       },
       "postings": [
@@ -22,8 +32,9 @@
       ]
     },
     {
+      "displayTime": "2017-05-02",
       "txn": {
-        "timestamp": "2017-05-02T00:00:00Z",
+        "timestamp": "2017-05-02T00:00:00+00:00[UTC]",
         "description": "default with commodity (EUR)"
       },
       "postings": [
@@ -42,8 +53,9 @@
       ]
     },
     {
+      "displayTime": "2017-05-03",
       "txn": {
-        "timestamp": "2017-05-03T00:00:00Z",
+        "timestamp": "2017-05-03T00:00:00+00:00[UTC]",
         "description": "no commodity"
       },
       "postings": [
@@ -60,8 +72,9 @@
       ]
     },
     {
+      "displayTime": "2017-05-04",
       "txn": {
-        "timestamp": "2017-05-04T00:00:00Z",
+        "timestamp": "2017-05-04T00:00:00+00:00[UTC]",
         "description": "no commodity with default"
       },
       "postings": [
@@ -78,8 +91,9 @@
       ]
     },
     {
+      "displayTime": "2017-05-05",
       "txn": {
-        "timestamp": "2017-05-05T00:00:00Z",
+        "timestamp": "2017-05-05T00:00:00+00:00[UTC]",
         "description": "basic commodity (USD)"
       },
       "postings": [
@@ -98,8 +112,9 @@
       ]
     },
     {
+      "displayTime": "2017-05-06",
       "txn": {
-        "timestamp": "2017-05-06T00:00:00Z",
+        "timestamp": "2017-05-06T00:00:00+00:00[UTC]",
         "description": "default with commodity (USD)"
       },
       "postings": [

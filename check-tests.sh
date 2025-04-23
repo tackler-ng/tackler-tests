@@ -178,7 +178,7 @@ echo "T3DB test count: $(cat $t3db_id_lst | wc -l)"
 echo "Impl Test count: $(cat $test_id_lst | wc -l)"
 
 echo "Check JSON validity:"
-find "$exe_dir" -name '*.json' -exec "$db_dir/json_lint.py" {} \;
+find "$exe_dir" -name '*.json' -exec "$db_dir/json_lint.sh" {} \;
 
 echo 
 echo "Silence is gold"
