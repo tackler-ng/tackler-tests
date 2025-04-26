@@ -1,9 +1,11 @@
 Git Storage
-         commit : 15fc7e053906ed3714037b0af0a81bb486fb4884
       reference : txns-1E2
       directory : txns
-         suffix : .txn
-        message : txns-1E2: 2016/12
+      extension : txn
+         commit : 15fc7e053906ed3714037b0af0a81bb486fb4884
+         author : tackler <accounting@example.com>
+           date : 2019-03-18 21:04:36 +0200
+        subject : txns-1E2: 2016/12
 
 Txn Set Checksum
        SHA3-512 : 310b7eef85e84f26b8fa389d23c5f8adf334a0f5f4d3d9b98b68d8a51a0fe55809ba514e9b3a17d6c69ad1a30c4ff2cce7e9f63751a5ca1d445b361d511ddb9c

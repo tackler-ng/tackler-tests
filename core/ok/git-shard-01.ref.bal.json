@@ -6,8 +6,10 @@
           "commit": "422ca7f3cbc1f3597fd2312d7d6c7793115e1e50",
           "ref": "shard-01",
           "dir": "git-txns",
-          "suffix": "txn",
-          "message": "test: shard-01"
+          "extension": "txn",
+          "author": "tackler <accounting@example.com>",
+          "date": "2019-03-20 19:37:28 +0200",
+          "subject": "test: shard-01"
         }
       }
     ]

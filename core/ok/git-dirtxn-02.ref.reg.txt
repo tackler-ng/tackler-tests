@@ -1,9 +1,11 @@
 Git Storage
-         commit : 491cc5fdcbfe0b51a4556d634b0240b18cc16f96
       reference : dirtxn-02
       directory : git-txns/2018
-         suffix : .txn
-        message : test: dirtxn-02
+      extension : txn
+         commit : 491cc5fdcbfe0b51a4556d634b0240b18cc16f96
+         author : tackler <accounting@example.com>
+           date : 2019-03-20 19:36:43 +0200
+        subject : test: dirtxn-02
 
 Report Time Zone
         TZ name : UTC

@@ -1,9 +1,11 @@
 Git Storage
-         commit : 3a1622d0c81cd1520f42ee357315d1db8c0e0771
       reference : tag-test-01
       directory : git-txns
-         suffix : .txn
-        message : test: commit-id-01, step 2
+      extension : txn
+         commit : 3a1622d0c81cd1520f42ee357315d1db8c0e0771
+         author : tackler <accounting@example.com>
+           date : 2019-03-20 19:37:57 +0200
+        subject : test: commit-id-01, step 2
 
 
 BALANCE
