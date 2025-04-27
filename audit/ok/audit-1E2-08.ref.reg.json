@@ -3,21 +3,21 @@
     "items": [
       {
         "GitInputReference": {
-          "commit": "15fc7e053906ed3714037b0af0a81bb486fb4884",
-          "ref": "txns-1E2",
+          "commit": "203e6f22992f2fff80c537e7742ed3cf897a9e6b",
+          "ref": "set-1e2",
           "dir": "txns",
           "extension": "txn",
           "author": "tackler <accounting@example.com>",
-          "date": "2019-03-18 21:04:36 +0200",
-          "subject": "txns-1E2: 2016/12"
+          "date": "2016-12-28 08:09:36 +0000",
+          "subject": "set-1e2: 2016-12-28"
         }
       },
       {
         "TxnSetChecksum": {
-          "size": 8,
+          "size": 9,
           "hash": {
             "algorithm": "SHA-256",
-            "value": "7364769d150272c3651bb4ac585c2a4851e05acc40d211770ad11c8e83f31550"
+            "value": "9a25d978d08abfa10ab4cae50c7b7cf693eb4200e5f1ae6b97a5d709552bc133"
           }
         }
       },
@@ -66,12 +66,28 @@
   "title": "REGISTER",
   "transactions": [
     {
-      "displayTime": "2016-01-04",
+      "displayTime": "2016-01-01",
       "txn": {
-        "timestamp": "2016-01-04T15:50:23+00:00[UTC]",
+        "timestamp": "2016-01-01T00:00:00+00:00[UTC]",
         "code": "#0000001",
         "description": "1E2 txn-1",
-        "uuid": "6c96da37-4318-330b-89b3-2ff00140b54e"
+        "uuid": "7e6a42b4-a49a-5b8d-a13f-ac81cb7f4ef6"
+      },
+      "postings": [
+        {
+          "account": "e:ey2016:em01:ed01",
+          "amount": "1.0000001",
+          "runningTotal": "1.0000001"
+        }
+      ]
+    },
+    {
+      "displayTime": "2016-01-04",
+      "txn": {
+        "timestamp": "2016-01-04T15:50:24+00:00[UTC]",
+        "code": "#0000002",
+        "description": "1E2 txn-2",
+        "uuid": "a57d20cc-6812-509c-891c-dd857c9c1590"
       },
       "postings": [
         {
@@ -84,10 +100,10 @@
     {
       "displayTime": "2016-01-08",
       "txn": {
-        "timestamp": "2016-01-08T07:40:46+00:00[UTC]",
-        "code": "#0000002",
-        "description": "1E2 txn-2",
-        "uuid": "8f3a9fbf-d91b-3827-89ef-6b6513e34ce8"
+        "timestamp": "2016-01-08T07:40:48+00:00[UTC]",
+        "code": "#0000003",
+        "description": "1E2 txn-3",
+        "uuid": "1627f110-7339-53dc-9d63-82537464f9ec"
       },
       "postings": [
         {
@@ -100,10 +116,10 @@
     {
       "displayTime": "2016-01-11",
       "txn": {
-        "timestamp": "2016-01-11T23:31:09+00:00[UTC]",
-        "code": "#0000003",
-        "description": "1E2 txn-3",
-        "uuid": "6773febf-e487-3a4b-891b-097ec40a34ab"
+        "timestamp": "2016-01-11T23:31:12+00:00[UTC]",
+        "code": "#0000004",
+        "description": "1E2 txn-4",
+        "uuid": "1c1f16ea-986b-5c8c-8fd9-6f94ca04c758"
       },
       "postings": [
         {
@@ -116,10 +132,10 @@
     {
       "displayTime": "2016-01-15",
       "txn": {
-        "timestamp": "2016-01-15T15:21:32+00:00[UTC]",
-        "code": "#0000004",
-        "description": "1E2 txn-4",
-        "uuid": "3c1f65b8-ce52-31e5-8458-481123a2ea1d"
+        "timestamp": "2016-01-15T15:21:36+00:00[UTC]",
+        "code": "#0000005",
+        "description": "1E2 txn-5",
+        "uuid": "5a86daf0-727d-52a7-b7d8-c77cb2799299"
       },
       "postings": [
         {
@@ -132,10 +148,10 @@
     {
       "displayTime": "2016-01-19",
       "txn": {
-        "timestamp": "2016-01-19T07:11:55+00:00[UTC]",
-        "code": "#0000005",
-        "description": "1E2 txn-5",
-        "uuid": "9abe2b65-3fd7-3136-bb3b-cda9b84604f9"
+        "timestamp": "2016-01-19T07:12:00+00:00[UTC]",
+        "code": "#0000006",
+        "description": "1E2 txn-6",
+        "uuid": "48d67bd6-0a06-5c57-aeb3-e2cc510d4652"
       },
       "postings": [
         {
@@ -148,10 +164,10 @@
     {
       "displayTime": "2016-01-22",
       "txn": {
-        "timestamp": "2016-01-22T23:02:18+00:00[UTC]",
-        "code": "#0000006",
-        "description": "1E2 txn-6",
-        "uuid": "333002f8-266a-3b8d-a4ed-44357bc54b06"
+        "timestamp": "2016-01-22T23:02:24+00:00[UTC]",
+        "code": "#0000007",
+        "description": "1E2 txn-7",
+        "uuid": "05fdd9dc-202e-5e9c-883b-b7b34238562c"
       },
       "postings": [
         {
@@ -164,10 +180,10 @@
     {
       "displayTime": "2016-01-26",
       "txn": {
-        "timestamp": "2016-01-26T14:52:41+00:00[UTC]",
-        "code": "#0000007",
-        "description": "1E2 txn-7",
-        "uuid": "3deb59c0-db20-3a09-b98c-1d0a0967b711"
+        "timestamp": "2016-01-26T14:52:48+00:00[UTC]",
+        "code": "#0000008",
+        "description": "1E2 txn-8",
+        "uuid": "47fcc1b4-0e23-58be-bdcc-397cb3993cbe"
       },
       "postings": [
         {
@@ -180,10 +196,10 @@
     {
       "displayTime": "2016-01-30",
       "txn": {
-        "timestamp": "2016-01-30T06:43:04+00:00[UTC]",
-        "code": "#0000008",
-        "description": "1E2 txn-8",
-        "uuid": "63cb0aa8-7742-38c4-9d2b-e51ae7fea3a5"
+        "timestamp": "2016-01-30T06:43:12+00:00[UTC]",
+        "code": "#0000009",
+        "description": "1E2 txn-9",
+        "uuid": "6fd441da-6a5e-5b09-bb3f-ab740cbbc23d"
       },
       "postings": [
         {

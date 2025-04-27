@@ -16,8 +16,8 @@
         "TxnSetChecksum": {
           "size": 3,
           "hash": {
-            "algorithm": "SHA3-512",
-            "value": "3df193eb2327db178cc7fb2f8f6505d15a9dc70a66565ec08349ac5e3098f750fc112a0f859cf185839dcf5cf672400d60dcc23a622cff56d010afd6a3415603"
+            "algorithm": "SHA-256",
+            "value": "aed68a71406105af4cfbc78ea1a43cdcc7e75e5de5b7c45ac431d91a9ab75044"
           }
         }
       },
@@ -26,7 +26,7 @@
           "txnFilterDef": {
             "txnFilter": {
               "TxnFilterTxnDescription": {
-                "regex": "^1E2 txn-(1|17|100)$"
+                "regex": "1E2 txn-(1|17|100)$"
               }
             }
           }
@@ -35,8 +35,8 @@
       {
         "AccountSelectorChecksum": {
           "hash": {
-            "algorithm": "SHA3-512",
-            "value": "3646ad992b393998c6496f4085864f717fb433fac1d3625bac300a9455141fec765eb9d0e49bb03f2aa60c61e23c2495a70472476608b664d58770acc0c1c9e9"
+            "algorithm": "SHA-256",
+            "value": "64263feac7b00952e9ec3b6c1fd11316faa58ff673c6bd085fac9f6f8d8389f6"
           }
         }
       },

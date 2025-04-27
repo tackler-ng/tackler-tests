@@ -3,13 +3,13 @@
     "items": [
       {
         "GitInputReference": {
-          "commit": "15fc7e053906ed3714037b0af0a81bb486fb4884",
-          "ref": "txns-1E2",
+          "commit": "203e6f22992f2fff80c537e7742ed3cf897a9e6b",
+          "ref": "set-1e2",
           "dir": "txns",
           "extension": "txn",
           "author": "tackler <accounting@example.com>",
-          "date": "2019-03-18 21:04:36 +0200",
-          "subject": "txns-1E2: 2016/12"
+          "date": "2016-12-28 08:09:36 +0000",
+          "subject": "set-1e2: 2016-12-28"
         }
       },
       {
@@ -17,7 +17,7 @@
           "size": 3,
           "hash": {
             "algorithm": "SHA3-512",
-            "value": "310b7eef85e84f26b8fa389d23c5f8adf334a0f5f4d3d9b98b68d8a51a0fe55809ba514e9b3a17d6c69ad1a30c4ff2cce7e9f63751a5ca1d445b361d511ddb9c"
+            "value": "3df193eb2327db178cc7fb2f8f6505d15a9dc70a66565ec08349ac5e3098f750fc112a0f859cf185839dcf5cf672400d60dcc23a622cff56d010afd6a3415603"
           }
         }
       },
@@ -54,38 +54,38 @@
       "balances": [
         {
           "accountSum": "0.00",
-          "accountTreeSum": "-4.0000001",
+          "accountTreeSum": "-1.0000001",
           "account": "a"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "-4.0000001",
+          "accountTreeSum": "-1.0000001",
           "account": "a:ay2016"
         },
         {
-          "accountSum": "-4.0000001",
-          "accountTreeSum": "-4.0000001",
+          "accountSum": "-1.0000001",
+          "accountTreeSum": "-1.0000001",
           "account": "a:ay2016:am01"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "4.0000001",
+          "accountTreeSum": "1.0000001",
           "account": "e"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "4.0000001",
+          "accountTreeSum": "1.0000001",
           "account": "e:ey2016"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "4.0000001",
+          "accountTreeSum": "1.0000001",
           "account": "e:ey2016:em01"
         },
         {
-          "accountSum": "4.0000001",
-          "accountTreeSum": "4.0000001",
-          "account": "e:ey2016:em01:ed04"
+          "accountSum": "1.0000001",
+          "accountTreeSum": "1.0000001",
+          "account": "e:ey2016:em01:ed01"
         }
       ],
       "deltas": [
@@ -95,42 +95,42 @@
       ]
     },
     {
-      "title": "2016-03",
+      "title": "2016-02",
       "balances": [
         {
           "accountSum": "0.00",
-          "accountTreeSum": "-3.0000001",
+          "accountTreeSum": "-28.0000001",
           "account": "a"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "-3.0000001",
+          "accountTreeSum": "-28.0000001",
           "account": "a:ay2016"
         },
         {
-          "accountSum": "-3.0000001",
-          "accountTreeSum": "-3.0000001",
-          "account": "a:ay2016:am03"
+          "accountSum": "-28.0000001",
+          "accountTreeSum": "-28.0000001",
+          "account": "a:ay2016:am02"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "3.0000001",
+          "accountTreeSum": "28.0000001",
           "account": "e"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "3.0000001",
+          "accountTreeSum": "28.0000001",
           "account": "e:ey2016"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "3.0000001",
-          "account": "e:ey2016:em03"
+          "accountTreeSum": "28.0000001",
+          "account": "e:ey2016:em02"
         },
         {
-          "accountSum": "3.0000001",
-          "accountTreeSum": "3.0000001",
-          "account": "e:ey2016:em03:ed03"
+          "accountSum": "28.0000001",
+          "accountTreeSum": "28.0000001",
+          "account": "e:ey2016:em02:ed28"
         }
       ],
       "deltas": [
@@ -144,38 +144,38 @@
       "balances": [
         {
           "accountSum": "0.00",
-          "accountTreeSum": "-31.0000001",
+          "accountTreeSum": "-28.0000001",
           "account": "a"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "-31.0000001",
+          "accountTreeSum": "-28.0000001",
           "account": "a:ay2016"
         },
         {
-          "accountSum": "-31.0000001",
-          "accountTreeSum": "-31.0000001",
+          "accountSum": "-28.0000001",
+          "accountTreeSum": "-28.0000001",
           "account": "a:ay2016:am12"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "31.0000001",
+          "accountTreeSum": "28.0000001",
           "account": "e"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "31.0000001",
+          "accountTreeSum": "28.0000001",
           "account": "e:ey2016"
         },
         {
           "accountSum": "0.00",
-          "accountTreeSum": "31.0000001",
+          "accountTreeSum": "28.0000001",
           "account": "e:ey2016:em12"
         },
         {
-          "accountSum": "31.0000001",
-          "accountTreeSum": "31.0000001",
-          "account": "e:ey2016:em12:ed31"
+          "accountSum": "28.0000001",
+          "accountTreeSum": "28.0000001",
+          "account": "e:ey2016:em12:ed28"
         }
       ],
       "deltas": [
