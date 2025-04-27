@@ -1,8 +1,17 @@
 {
-  "title": "BALANCE GROUPS",
+  "metadata": {
+    "items": [
+      {
+        "TimeZoneInfo": {
+          "zoneId": "UTC"
+        }
+      }
+    ]
+  },
+  "title": "BALANCE GROUP",
   "groups": [
     {
-      "title": "2017-01 Z",
+      "title": "2017-01",
       "balances": [
         {
           "accountSum": "0.00",

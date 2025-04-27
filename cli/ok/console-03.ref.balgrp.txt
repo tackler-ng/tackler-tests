@@ -1,8 +1,11 @@
+Report Time Zone
+        TZ name : UTC
 
-BALANCE GROUPS
---------------
-2017-01 Z
----------
+
+BALANCE GROUP
+-------------
+2017-01
+-------
                  0.00    7.00  Expenses
                  1.00    1.00  Expenses:crème·glacée
                  1.00    1.00  Expenses:ice_cream

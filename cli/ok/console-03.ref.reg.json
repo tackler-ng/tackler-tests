@@ -1,9 +1,19 @@
 {
+  "metadata": {
+    "items": [
+      {
+        "TimeZoneInfo": {
+          "zoneId": "UTC"
+        }
+      }
+    ]
+  },
   "title": "REGISTER",
   "transactions": [
     {
+      "displayTime": "2017-01-03",
       "txn": {
-        "timestamp": "2017-01-03T00:00:00Z"
+        "timestamp": "2017-01-03T00:00:00+00:00[UTC]"
       },
       "postings": [
         {
@@ -49,8 +59,9 @@
       ]
     },
     {
+      "displayTime": "2017-01-04",
       "txn": {
-        "timestamp": "2017-01-04T00:00:00Z"
+        "timestamp": "2017-01-04T00:00:00+00:00[UTC]"
       },
       "postings": [
         {
