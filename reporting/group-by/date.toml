@@ -22,7 +22,6 @@ tags        = { path = "none" }
 [report]
 report-timezone = "UTC"
 scale = { min = 2, max = 7 }
-formats = [ "txt", "json" ]
 accounts = [ "^a:.*", "^e:.*" ]
 targets = [ "balance", "balance-group"]
 
