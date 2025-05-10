@@ -10,7 +10,7 @@
    ; 
    ; Txn Set Checksum
    ;         SHA-256 : fc88ae6f605baba520878110572e6cff6e78309e12adb25bca8697f917b54763
-   ;        Set size : 1
+   ;        set size : 1
    ; 
    ; Account Selector Checksum
    ;            None : select all non-zero

@@ -15,7 +15,11 @@
           "hash": {
             "algorithm": "SHA-256",
             "value": "cb5b67e3283b6dd95317dac2bd8bca339b3d1c20cb614e2de692e038d4b0e58a"
-          }
+          },
+          "selectors": [
+            "a:ay2016:am02",
+            "e:ey2016:em02:.*"
+          ]
         }
       }
     ]

@@ -37,7 +37,10 @@
           "hash": {
             "algorithm": "SHA-256",
             "value": "e468cfe14511f611835d95d141f3869edd000ce17e14b5b2e3468e5d75baaf5f"
-          }
+          },
+          "selectors": [
+            "none-matching"
+          ]
         }
       }
     ]

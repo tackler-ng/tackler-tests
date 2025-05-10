@@ -9,13 +9,14 @@ Git Storage
 
 Txn Set Checksum
         SHA-256 : aed68a71406105af4cfbc78ea1a43cdcc7e75e5de5b7c45ac431d91a9ab75044
-       Set size : 3
+       set size : 3
 
 Filter
   Txn Description: "1E2 txn-(1|17|100)$"
 
 Account Selector Checksum
         SHA-256 : 64263feac7b00952e9ec3b6c1fd11316faa58ff673c6bd085fac9f6f8d8389f6
+       selector : '.*'
 
 Report Time Zone
         TZ name : UTC

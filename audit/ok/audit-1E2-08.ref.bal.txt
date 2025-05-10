@@ -9,7 +9,7 @@ Git Storage
 
 Txn Set Checksum
         SHA-256 : 9a25d978d08abfa10ab4cae50c7b7cf693eb4200e5f1ae6b97a5d709552bc133
-       Set size : 9
+       set size : 9
 
 Filter
   AND
@@ -19,6 +19,7 @@ Filter
 
 Account Selector Checksum
         SHA-256 : 23b3e1d50b27f44e53c0bc66b132028eea2f939fc9ad0d9225f661e41f869b23
+       selector : 'e:.*'
 
 
 BALANCE

@@ -37,7 +37,8 @@
           "hash": {
             "algorithm": "None",
             "value": "select all"
-          }
+          },
+          "selectors": []
         }
       },
       {

@@ -10,10 +10,11 @@
    ; 
    ; Txn Set Checksum
    ;         SHA-256 : fc88ae6f605baba520878110572e6cff6e78309e12adb25bca8697f917b54763
-   ;        Set size : 1
+   ;        set size : 1
    ; 
    ; Account Selector Checksum
    ;         SHA-256 : 64263feac7b00952e9ec3b6c1fd11316faa58ff673c6bd085fac9f6f8d8389f6
+   ;        selector : '.*'
    ; 
    ; WARNING:
    ; WARNING: The sum of equity transaction is zero without equity account.

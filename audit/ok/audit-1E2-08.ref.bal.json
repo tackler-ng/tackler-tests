@@ -53,7 +53,10 @@
           "hash": {
             "algorithm": "SHA-256",
             "value": "23b3e1d50b27f44e53c0bc66b132028eea2f939fc9ad0d9225f661e41f869b23"
-          }
+          },
+          "selectors": [
+            "e:.*"
+          ]
         }
       }
     ]
