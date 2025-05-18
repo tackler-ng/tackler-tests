@@ -1,6 +1,6 @@
 = Tackler Test Vectors ("the Suite")
 
-This is collection of test vectors for link:https://tackler.e257.fi/[Tackler],
+This is collection of test vectors for link:https://tackler.fi/[Tackler],
 source code is here: link:https://github.com/tackler-ng/tackler[tackler-ng/tackler].
 
 See link:https://github.com/tackler-ng/tackler-t3db[Tackler Test Tracking Database (T3DB)] 
