@@ -1,7 +1,4 @@
-2024-03-24T00:00:00+00:00 'Equity for TCKLR
-   ; Filter
-   ;   Txn TS: end   2024-03-31T00:00:00+00:00
-   ; 
+2024-04-01T00:00:00+00:00 'Equity for TCKLR
    ; Report Time Zone
    ;         TZ name : UTC
    ; 
@@ -10,6 +7,6 @@
    ;       Commodity : aaa
    ;           Value : 300000.001 TCKLR
    ; 
-   e:conv  3300000.011 TCKLR
-   Equity:Balance  -3300000.011 TCKLR
+   e:conv  3600000.012 TCKLR
+   Equity:Balance  -3600000.012 TCKLR
 
