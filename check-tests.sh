@@ -58,7 +58,13 @@ get_source_files () {
     if [ "$tackler_version" == "SC" ]; then
         find "$exe_dir/../api/src/" "$exe_dir/../core/src/" "$exe_dir/../cli/src/" -name '*.scala'
     elif [ "$tackler_version" == "RS" ]; then
-        find "$exe_dir/../tackler-rs/src/" "$exe_dir/../tackler-api/src/" "$exe_dir/../tackler-core/src/" "$exe_dir/../tackler-cli/src/" -name '*.rs'
+        find \
+            "$exe_dir/../tackler-rs/src/" \
+            "$exe_dir/../tackler-api/src/" \
+            "$exe_dir/../tackler-core/src/" \
+            "$exe_dir/../tackler-core/tests/" \
+            "$exe_dir/../tackler-cli/src/" \
+            -name '*.rs'
     else
         echo "Unknown tackler type"
         exit 1
