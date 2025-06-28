@@ -1,4 +1,6 @@
-2016-12-28T08:09:36+00:00 'Equity: last txn (uuid): 69ccb77a-88b3-5f6b-9232-fe46f43674d1
+2016-12-28T08:09:36+00:00 'Equity txn
+   ; Last txn (uuid) : 69ccb77a-88b3-5f6b-9232-fe46f43674d1
+   ;
    ; Git Storage
    ;       reference : set-1e2
    ;       directory : txns

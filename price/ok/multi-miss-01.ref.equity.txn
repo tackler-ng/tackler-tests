@@ -1,4 +1,4 @@
-2024-03-01T00:00:00+00:00 'Equity for TCKLR
+2024-03-01T00:00:00+00:00 'Equity txn for TCKLR
    ; Report Time Zone
    ;         TZ name : UTC
    ; 
@@ -18,7 +18,7 @@
    Assets:Stocks  21.000101 TCKLR
    Equity:Balance  -21.000101 TCKLR
 
-2024-03-01T00:00:00+00:00 'Equity for aaa
+2024-03-01T00:00:00+00:00 'Equity txn for aaa
    ; Report Time Zone
    ;         TZ name : UTC
    ; 

@@ -4,7 +4,7 @@ Report Time Zone
 
 REGISTER
 --------
-2017-05-06 'Equity
+2017-05-06 'Equity txn
             ; WARNING:
             ; WARNING: The sum of equity transaction is zero without equity account.
             ; WARNING: Therefore there is no equity posting row, and this is probably not right.
@@ -13,7 +13,7 @@ REGISTER
             a                                           -300.00            -300.00
             e                                            300.00             300.00
 ----------------------------------------------------------------------------------
-2017-05-06 'Equity for EUR
+2017-05-06 'Equity txn for EUR
             ; WARNING:
             ; WARNING: The sum of equity transaction is zero without equity account.
             ; WARNING: Therefore there is no equity posting row, and this is probably not right.
@@ -22,7 +22,7 @@ REGISTER
             a                                            -11.00             -11.00 EUR
             e                                             11.00              11.00 EUR
 --------------------------------------------------------------------------------------
-2017-05-06 'Equity for USD
+2017-05-06 'Equity txn for USD
             ; WARNING:
             ; WARNING: The sum of equity transaction is zero without equity account.
             ; WARNING: Therefore there is no equity posting row, and this is probably not right.

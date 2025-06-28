@@ -1,4 +1,4 @@
-2024-03-01T00:00:00+00:00 'Equity for $
+2024-03-01T00:00:00+00:00 'Equity txn for $
    ; Report Time Zone
    ;         TZ name : UTC
    ; 
@@ -18,7 +18,7 @@
    Assets:Stocks  60 $
    Equity:Balance  -60 $
 
-2024-03-01T00:00:00+00:00 'Equity for TCKLR
+2024-03-01T00:00:00+00:00 'Equity txn for TCKLR
    ; Report Time Zone
    ;         TZ name : UTC
    ; 
@@ -38,7 +38,7 @@
    Assets:Stocks  12063.030303 TCKLR
    Equity:Balance  -12063.030303 TCKLR
 
-2024-03-01T00:00:00+00:00 'Equity for ddd
+2024-03-01T00:00:00+00:00 'Equity txn for ddd
    ; Report Time Zone
    ;         TZ name : UTC
    ; 

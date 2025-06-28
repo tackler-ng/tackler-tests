@@ -1,4 +1,6 @@
-2017-02-01T00:00:00+00:00 'Equity: last txn (uuid): 4dba67d9-0f47-4c8e-a3bc-f31d2bae2de4
+2017-02-01T00:00:00+00:00 'Equity txn
+   ; Last txn (uuid) : 4dba67d9-0f47-4c8e-a3bc-f31d2bae2de4
+   ;
    ; Git Storage
    ;       reference : FIXED by commit
    ;       directory : git-txns
