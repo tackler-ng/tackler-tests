@@ -111,8 +111,7 @@ get_test_ids () {
         get_source_files |\
             xargs grep -Eh '(((\*)|(//))('"$rgx_test"'))|(fn'"$rgx_test_func"')'
     )|\
-        sed -E 's/.* +((test:)|(test-ref:)) +//' |\
-        sed -E 's@.*fn +id_(.*)__.*@\1@' | tr '_' '-'
+        sed -E 's/.* +((test:)|(test-ref:)) +//'
 }
 
 t3db_feature_id_lst=$(mktemp /tmp/t3db_feature_lst.XXXXXX)
