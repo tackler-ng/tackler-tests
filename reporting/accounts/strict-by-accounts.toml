@@ -23,9 +23,9 @@ tags        = { path = "none" }
 report-timezone = "UTC"
 scale = { min = 2, max = 7 }
 formats = [ "txt", "json" ]
-# Verify that accounts are not trimmed (e.g. nonsensical " *" start of regex is ok)
-# test: c6da0aef-125f-4d33-9780-ffaa9e724499
-accounts = [ " *a:.*", "^e:.*" ]
+# Verify that accounts selector doesn't affect account export
+# test: 2fe1dd09-fefc-4a19-ad2b-03bf77c73bf5
+accounts = [ "^X:.*", "^Y:.*" ]
 targets = [ "balance", "balance-group", "register"]
 
 balance       = { title = "BALANCE (TEST)" }
@@ -34,5 +34,5 @@ register      = { title = "REGISTER (TEST)" }
 
 
 [export]
-targets = ["equity", "identity"]
+targets = ["equity", "identity", "accounts" ]
 equity = { equity-account = "assets:cash" }
