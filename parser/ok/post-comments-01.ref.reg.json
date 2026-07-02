@@ -20,7 +20,8 @@
         {
           "account": "a",
           "amount": "1.00",
-          "runningTotal": "1.00"
+          "runningTotal": "1.00",
+          "comment": "1:a comment"
         },
         {
           "account": "e",
@@ -44,7 +45,8 @@
         {
           "account": "e",
           "amount": "-1.00",
-          "runningTotal": "-2.00"
+          "runningTotal": "-2.00",
+          "comment": "2:e comment"
         }
       ]
     },
@@ -58,12 +60,14 @@
         {
           "account": "a",
           "amount": "1.00",
-          "runningTotal": "3.00"
+          "runningTotal": "3.00",
+          "comment": "3:a"
         },
         {
           "account": "e",
           "amount": "-1.00",
-          "runningTotal": "-3.00"
+          "runningTotal": "-3.00",
+          "comment": "3:e"
         }
       ]
     },
@@ -77,12 +81,14 @@
         {
           "account": "a",
           "amount": "1.00",
-          "runningTotal": "4.00"
+          "runningTotal": "4.00",
+          "comment": "4:a"
         },
         {
           "account": "e",
           "amount": "-1.00",
-          "runningTotal": "-4.00"
+          "runningTotal": "-4.00",
+          "comment": "4:e"
         }
       ]
     }
